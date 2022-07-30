@@ -15,13 +15,14 @@ return new class extends Migration
     {
         Schema::create('chitiet', function (Blueprint $table) {
             $table->id('ma_chitiet');
+            $table->unsignedBigInteger('ma_phieu');
             $table->date('ngaytra');
             $table->double('phi', 10, 2);
             $table->string('lydo', 100)->nullable();
-        //     $table->unsignedBigInteger('ma_tinhtrang');
-        //     $table->foreign('ma_tinhtrang')
-        //   ->references('ma_tinhtrang')->on('tinhtrang')
-        //   ->onDelete('cascade');
+
+            $table->foreign('ma_phieu')
+            ->references('ma_phieu')->on('phieumuon')
+            ->onDelete('cascade');
         });
     }
 

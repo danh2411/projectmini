@@ -11,9 +11,10 @@ class Chitiet extends Model
     use HasFactory;
     public function phieumuon()
     {
-        return $this->hasMany(Phieumuon::class);
+        return $this->belongsTo(Phieumuon::class);
     }
     public function tinhtrang(){
         return $this->hasMany(Tinhtrang::class);
     }
+
 }

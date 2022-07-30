@@ -15,7 +15,7 @@ class Phieumuon extends Model
     }
     public function chitiet()
     {
-        return $this->belongsToMany(Chitiet::class);
+        return $this->hasMany(Chitiet::class);
     }
-    
+
 }
