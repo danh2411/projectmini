@@ -9,22 +9,22 @@
 
                                         <li><a data-toggle="collapse" data-target="#demolibra" href="#">Danh Mục Sách <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
                                             <ul id="demolibra" class="collapse dropdown-header-top">
-                                                <li><a href="library-assets.html">Bảng danh mục sách</a>
+                                                <li><a href="{{route('listCategory')}}">Bảng danh mục sách</a>
                                                 </li>
-                                                <li><a href="add-library-assets.html">Thêm danh mục</a>
+                                                <li><a href="{{route('addCategory')}}" >Thêm danh mục</a>
                                                 </li>
-                                                <li><a href="edit-library-assets.html">Chỉnh sửa danh mục</a>
+                                                <li><a href="{{route('editCategory')}}">Chỉnh sửa danh mục</a>
                                                 </li>
                                             </ul>
                                         </li>
                                        <!-- Thông Tin sách -->
                                         <li><a data-toggle="collapse" data-target="#demolibra" href="#">Sách <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
                                             <ul id="demolibra" class="collapse dropdown-header-top">
-                                                <li><a href="library-assets.html">Tất cả sách</a>
+                                                <li><a href="{{route('listBook')}}">Tất cả sách</a>
                                                 </li>
-                                                <li><a href="add-library-assets.html">Thêm sách</a>
+                                                <li><a href="{{route('addBook')}}">Thêm sách</a>
                                                 </li>
-                                                <li><a href="edit-library-assets.html">Chỉnh sửa thông tin sách</a>
+                                                <li><a href="{{route('editBook')}}">Chỉnh sửa thông tin sách</a>
                                                 </li>
                                             </ul>
                                         </li>

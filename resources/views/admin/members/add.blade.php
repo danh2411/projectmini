@@ -1,14 +1,16 @@
 @extends('layouts.admin')
 
-@section('content')
-<div class="single-pro-review-area mt-t-30 mg-b-15">
+<!-- content -->
+@section('content')                
+       
+        <div class="single-pro-review-area mt-t-30 mg-b-15">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <div class="product-payment-inner-st">
                             <ul id="myTabedu1" class="tab-review-design">
-                                <li class="active"><a href="#description">Chỉnh sửa thông tin chi tiết sách</a></li>
-                              
+                                <li class="active"><a href="#description">Thêm khách hàng</a></li>
+                                
                             </ul>
                             <div id="myTabContent" class="tab-content custom-product-edit">
                                 <div class="product-tab-list tab-pane fade active in" id="description">
@@ -16,14 +18,14 @@
                                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                             <div class="review-content-section">
                                                 <div id="dropzone1" class="pro-ad addcoursepro">
-                                                    <form action="#" class="dropzone dropzone-custom needsclick addlibrary" id="demo1-upload">
+                                                    <form action="/upload" class="dropzone dropzone-custom needsclick addlibrary" id="demo1-upload">
                                                         <div class="row">
                                                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                                                 <div class="form-group">
-                                                                    <input name="nameasset" type="text" class="form-control" placeholder="Name of Asset" value="Web Development">
+                                                                    <input name="nameasset" type="text" class="form-control" placeholder="Name of Asset">
                                                                 </div>
                                                                 <div class="form-group">
-                                                                    <input name="subject" type="text" class="form-control" placeholder="Subject" value="Html Website">
+                                                                    <input name="subject" type="text" class="form-control" placeholder="Subject">
                                                                 </div>
                                                                 <div class="form-group alert-up-pd">
                                                                     <div class="dz-message needsclick download-custom">
@@ -37,25 +39,25 @@
                                                             </div>
                                                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                                                 <div class="form-group">
-                                                                    <input name="department" type="text" class="form-control" placeholder="Department" value="CSE">
+                                                                    <input name="department" type="number" class="form-control" placeholder="Department">
                                                                 </div>
                                                                 <div class="form-group res-mg-t-15">
-                                                                    <input name="type" type="text" class="form-control" placeholder="Type" value="Book">
+                                                                    <input name="type" type="text" class="form-control" placeholder="Type">
                                                                 </div>
                                                                 <div class="form-group">
-                                                                    <input name="price" type="text" class="form-control" placeholder="Price" value="$1500">
+                                                                    <input name="price" type="text" class="form-control" placeholder="Price">
                                                                 </div>
                                                                 <div class="form-group">
-                                                                    <input name="year" type="text" class="form-control" placeholder="Year" value="1 Year">
+                                                                    <input name="year" type="number" class="form-control" placeholder="Year">
                                                                 </div>
                                                                 <div class="form-group">
-                                                                    <input name="status" type="text" class="form-control" placeholder="Status" value="active">
+                                                                    <input name="status" type="text" class="form-control" placeholder="Status">
                                                                 </div>
                                                             </div>
                                                         </div>
                                                         <div class="row">
                                                             <div class="col-lg-12">
-                                                                <div class="payment-adress mg-t-15 responsive-mg-t-0">
+                                                                <div class="payment-adress">
                                                                     <button type="submit" class="btn btn-primary waves-effect waves-light">Submit</button>
                                                                 </div>
                                                             </div>
@@ -85,7 +87,7 @@
                                                             <div class="form-group">
                                                                 <input type="password" class="form-control" placeholder="Confirm Password">
                                                             </div>
-                                                            <a href="#!" class="btn btn-primary waves-effect waves-light">Submit</a>
+                                                            <a href="#" class="btn btn-primary waves-effect waves-light">Submit</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -127,3 +129,4 @@
             </div>
         </div>
 @endsection
+<!-- end content -->

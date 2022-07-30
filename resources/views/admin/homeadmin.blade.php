@@ -4,8 +4,8 @@
 
            
 
-            <!-- content-->
-                    @section('content')
+<!-- content-->
+    @section('content')
                     <div class="analytics-sparkle-area">
             <div class="container-fluid">
                 <div class="row mg-t-30">
@@ -61,7 +61,7 @@
             </div>
         </div>
    @endsection
-            <!-- endcontent -->
+ <!-- endcontent -->
             
            
       

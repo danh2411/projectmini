@@ -6,9 +6,9 @@
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <div class="product-status-wrap">
-                            <h4>Tất cả sách</h4>
+                            <h4>Library List</h4>
                             <div class="add-product">
-                            <a href="{{route('addBook')}}">Thêm sách</a>
+                                <a href="#">Add Library</a>
                             </div>
                             <div class="asset-inner">
                                 <table>
@@ -23,25 +23,22 @@
                                         <th>Price</th>
                                         <th>Setting</th>
                                     </tr>
+                                   
                                     <tr>
-                                        <td>1</td>
-                                        <td><img src="img/product/book-1.jpg" alt="" /></td>
-                                        <td>Web Development Book</td>
+                                        <td>6</td>
+                                        <td><img src="img/product/book-2.jpg" alt="" /></td>
+                                        <td>Quality Bol pen</td>
                                         <td>
-                                            <button class="pd-setting">Active</button>
+                                            <button class="ps-setting">Paused</button>
                                         </td>
-                                        <td>Html, Css</td>
+                                        <td>Java</td>
                                         <td>CSE</td>
-                                        <td>Book</td>
-                                        <td>$1500</td>
-                                        <td>
-                                            <a href="{{route('detailCart')}}">
-                                                <button data-toggle="tooltip"  title="Edit" class="pd-setting-ed " href="{{route('editBook')}}" ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></button>
-                                            </a>
-                                            <button onclick="return confirm('Bạn có muốn xóa thông tin sách này không ?')" data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button>
+                                        <td>CD</td>
+                                        <td>$1000</td>
+                                        <td>                   
+                                            <button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button>
                                         </td>
                                     </tr>
-                                   
                                 </table>
                             </div>
                             <div class="custom-pagination">
