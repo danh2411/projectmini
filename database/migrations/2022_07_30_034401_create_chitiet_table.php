@@ -18,6 +18,10 @@ return new class extends Migration
             $table->date('ngaytra');
             $table->double('phi', 10, 2);
             $table->string('lydo', 100)->nullable();
+        //     $table->unsignedBigInteger('ma_tinhtrang');
+        //     $table->foreign('ma_tinhtrang')
+        //   ->references('ma_tinhtrang')->on('tinhtrang')
+        //   ->onDelete('cascade');
         });
     }
 
