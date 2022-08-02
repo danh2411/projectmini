@@ -1,925 +1,559 @@
 <!DOCTYPE html>
 
+<!--
+ // WEBSITE: https://themefisher.com
+ // TWITTER: https://twitter.com/themefisher
+ // FACEBOOK: https://www.facebook.com/themefisher
+ // GITHUB: https://github.com/themefisher/
+-->
 
 <html lang="en">
+
 <head>
 
-  <!-- Basic Page Needs
-  ================================================== -->
-  <meta charset="utf-8">
-  <title>Rappo - It solutions &amp; Corporate template</title>
+    <!-- ** Basic Page Needs ** -->
+    <meta charset="utf-8">
+    <title>Classimax | Classified Marketplace Template</title>
 
-  <!-- Mobile Specific Metas
-  ================================================== -->
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="Corporate Html5 Template">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
-  <meta name="author" content="Themefisher">
-  <meta name="generator" content="Themefisher Rappo HTML Template v1.0">
+    <!-- ** Mobile Specific Metas ** -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Agency HTML Template">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <meta name="author" content="Themefisher">
+    <meta name="generator" content="Themefisher Classified Marketplace Template v1.0">
 
-  <!-- bootstrap -->
-  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
-  <!-- Animate -->
-  <link rel="stylesheet" href="plugins/animate-css/animate.css">
-  <!-- Icon Font css -->
-  <link rel="stylesheet" href="plugins/fontawesome/css/all.css">
-  <link rel="stylesheet" href="plugins/fonts/Pe-icon-7-stroke.css">
-  <!-- Themify icon Css -->
-  <link rel="stylesheet" href="plugins/themify/css/themify-icons.css">
-  <!-- Slick Carousel CSS -->
-  <link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css">
-  <link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css">
+    <!-- favicon -->
+    <link href="{{asset('assets/client/images/favicon.png')}}" rel="shortcut icon">
 
-  <!-- Main Stylesheet -->
-  <link rel="stylesheet" href="css/style.css">
-  
-  <!--Favicon-->
-  <link rel="icon" href="images/favicon.png" type="image/x-icon">
+    <!-- 
+  Essential stylesheets
+  =====================================-->
+    <link href="{{asset('assets/client/plugins/bootstrap/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/client/plugins/bootstrap/bootstrap-slider.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/client/plugins/font-awesome/css/font-awesome.min.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/client/plugins/slick/slick.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/client/plugins/slick/slick-theme.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/client/plugins/jquery-nice-select/css/nice-select.css')}}" rel="stylesheet">
+
+    <link href="{{asset('assets/client/css/style.css')}}" rel="stylesheet">
 
 </head>
-<body id="top-header">
 
-<!-- LOADER TEMPLATE -->
-<div id="page-loader">
-  <div class="loader-icon fa fa-spin colored-border"></div>
-</div>
-<!-- /LOADER TEMPLATE -->
+<body class="body-wrapper">
 
 
-<!-- NAVBAR
-    ================================================= -->
-<nav class="navbar navbar-expand-lg navbar-dark trans-navigation fixed-top navbar-togglable">
-  <div class="container">
-    <a class="navbar-brand" href="index-3.html">
-      <h3>Rappo</h3>
-    </a>
-    <!-- Toggler -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-      aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="fa fa-bars"></span>
-    </button>
-
-    <!-- Collapse -->
-    <div class="collapse navbar-collapse has-dropdown" id="navbarCollapse">
-      <!-- Links -->
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#!" id="navbarWelcome" role="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            Home
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarWelcome">
-            <li><a class="dropdown-item" href="index.html">Home-1</a></li>
-            <li><a class="dropdown-item" href="index-2.html">Home-2</a></li>
-            <li><a class="dropdown-item" href="index-3.html">Home-3</a></li>
-            <li><a class="dropdown-item" href="index-4.html">Home-4</a></li>
-
-            <li class="dropdown dropdown-submenu dropright">
-              <a class="dropdown-item dropdown-toggle" href="#!" id="dropdown0301" role="button"
-                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sub Menu</a>
-
-              <ul class="dropdown-menu" aria-labelledby="dropdown0301">
-                <li><a class="dropdown-item" href="index.html">Submenu 01</a></li>
-                <li><a class="dropdown-item" href="index.html">Submenu 02</a></li>
-              </ul>
-            </li>
-
-            <li class="dropdown dropdown-submenu dropleft">
-              <a class="dropdown-item dropdown-toggle" href="#!" id="dropdown0301" role="button"
-                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sub Menu</a>
-
-              <ul class="dropdown-menu" aria-labelledby="dropdown0301">
-                <li><a class="dropdown-item" href="index.html">Submenu 01</a></li>
-                <li><a class="dropdown-item" href="index.html">Submenu 02</a></li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-        <li class="nav-item ">
-          <a href="about.html" class="nav-link js-scroll-trigger">
-            About
-          </a>
-        </li>
-        <li class="nav-item ">
-          <a href="service.html" class="nav-link js-scroll-trigger">
-            Services
-          </a>
-        </li>
-        <li class="nav-item ">
-          <a href="pricing.html" class="nav-link js-scroll-trigger">
-            Pricing
-          </a>
-        </li>
-
-        <li class="nav-item ">
-          <a href="project.html" class="nav-link js-scroll-trigger">
-            Projects
-          </a>
-        </li>
-
-        <li class="nav-item ">
-          <a href="contact.html" class="nav-link">
-            Contact
-          </a>
-        </li>
-      </ul>
-    </div> <!-- / .navbar-collapse -->
-  </div> <!-- / .container -->
-</nav>
-
- <!-- HERO
-    ================================================== -->
-    <section class="banner-area py-5" id="banner-3">
-       <div class="overlay"></div>
-        <!-- Content -->
+    <header>
         <div class="container">
-            <div class="row  align-items-center justify-content-center">
-                <div class="col-md-12 col-lg-9">
-                   <div class="banner-content text-center style-2">
-                        <!-- Heading -->
-                        <h1 class="display-4 mb-4 ">
-                            Industry Leading Managed Services Solutions
-                        </h1>
-
-                        <!-- Subheading -->
-                        <p class="lead mb-5 pr-0">
-                            Pindom is set of landing and support pages aimed at helping companies promote new products and business launches.
-                        </p>
-
-                        <!-- Button -->
-                        <a href="#!" target="_blank" class="btn btn-primary btn-circled">
-                                Purchase now
+            <div class="row">
+                <div class="col-md-12">
+                    <nav class="navbar navbar-expand-lg navbar-light navigation">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="{{asset('assets/client/images/logo.png')}}" alt="">
                         </a>
-                    </div>
-                </div>
-            </div> <!-- / .row -->
-        </div> <!-- / .container -->
-    </section>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ml-auto main-nav ">
 
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="index.html">Home</a>
+                                </li>
+                                <!-- info -->
+                                <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 ">
+                                    <div class="header-right-info">
 
-<section id="about" class="section">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-md-6">
-                    <div class="img-block">
-                        <img src="images/blog-lg.jpg" alt="" class="img-fluid">
-                    </div>
-                </div>
-                <div class="col-lg-8 pt-6 col-md-12">
-                    <div class="row justy-content-center">
-                        <div class="col-lg-6 col-sm-6 col-md-6 mb-5">
-                            <div class="text-center about-block">
-                                <div class="img-icon mb-4">
-                                     <i class="ti-thumb-up"></i>
+                                        <ul class="nav navbar-nav mai-top-nav header-right-menu">
+
+                                            <li class="nav-item " style="margin-right: 0px;">
+                                                <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle ">
+                                                    <img src="{{asset('assets/admin/img/product/pro4.jpg')}}" alt="" />
+                                                    <span class="admin-name">{{ Auth::user()->name }}</span>
+                                                    <i class="fa fa-angle-down edu-icon edu-down-arrow"></i>
+                                                </a>
+                                                <ul role="menu" class="dropdown-header-top author-log dropdown-menu animated zoomIn">
+
+                                                    <li>
+                                                        <form method="POST" action="{{ route('logout') }}">
+                                                            @csrf
+
+                                                            <x-dropdown-link :href="route('logout')" onclick="event.preventDefault();
+                                                    this.closest('form').submit();">
+                                                                {{ __('Đăng xuất') }}
+                                                            </x-dropdown-link>
+                                                        </form>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
-                                <h4 class="mb-2">The right advice</h4>
-                                <p>Our team are experts in matching you with the right provider.</p>
-                            </div>
+                                <!-- end info -->
+                            </ul>
                         </div>
-
-                        <div class="col-lg-6 col-sm-6 col-md-6 mb-5">
-                            <div class="text-center about-block">
-                                <div class="img-icon mb-4">
-                                   <i class="ti-cup"></i>
-                                </div>
-                                <h4 class="mb-2">Recognised for excellence</h4>
-                                <p>We've been awarded for our high rate of customer satisfaction.</p>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-6 col-sm-6 col-md-6">
-                            <div class="text-center about-block">
-                                <div class="img-icon mb-4">
-                                    <i class="ti-wallet"></i>
-                                </div>
-                                <h4 class="mb-2">Compare the best</h4>
-                                <p>We only compare market leaders with a reputation for service quality.</p>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-6 col-sm-6 col-md-6">
-                            <div class="text-center about-block">
-                                <div class="img-icon mb-4">
-                                    <i class="ti-dashboard"></i>
-                                </div>
-                                <h4 class="mb-2">Premium Services</h4>
-                                <p>We only compare market leaders with a reputation for service quality.</p>
-                            </div>
-                        </div>
-                    </div>
+                    </nav>
                 </div>
             </div>
         </div>
+    </header>
+
+    <!--===============================
+=            Hero Area            =
+================================-->
+
+    <section class="hero-area bg-1 text-center overly">
+        <!-- Container Start -->
+       
+        <!-- Container End -->
     </section>
 
- <section class="section bg-grey" id="process">
-        <div class="container">
-            <div class="row justify-content-center mb-4">
-                <div class="col-md-8 col-lg-6 text-center">
-                    <div class="section-heading">
-                        <!-- Heading -->
-                        <h2 class="section-title ">
-                            Our Working process
-                        </h2>
 
-                        <!-- Subheading -->
-                        <p>
-                            Rappo can be used to create anything from a small marketing page to a sophisticated website.
-                        </p>
-                    </div>
-                </div>
-            </div> <!-- / .row -->
+    <!--===========================================
+=            Popular deals section            =
+============================================-->
+<!-- Slide card category  -->
 
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-sm-6 col-md-6">
-                    <div class="process-block">
-                        <img src="images/process/process-1.jpg" alt="" class="img-fluid">
-
-                        <h3>Project Research</h3>
-                        <p>Nihil facere delectus eaque aut possimus nobis laudantium reprehenderit.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 col-md-6">
-                    <div class="process-block">
-                        <img src="images/process/process-2.jpg" alt="" class="img-fluid">
-
-                        <h3>Project demostration</h3>
-                        <p>Nihil facere delectus eaque aut possimus nobis laudantium reprehenderit.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 col-md-6">
-                    <div class="process-block">
-                        <img src="images/process/process-3.jpg" alt="" class="img-fluid">
-
-                        <h3>Development & delivery</h3>
-                        <p>Nihil facere delectus eaque aut possimus nobis laudantium reprehenderit.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-<section class="section" id="service">
-        <div class="container">
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-7 pl-4 text-center">
-                    <div class="service-heading">
-                        <h1>Get a better deal and start saving money today</h1>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-block media">
-                        <div class="service-icon">
-                            <i class="ti-reload"></i>
-                        </div>
-                        <div class="service-inner-content media-body">
-                            <h4>Backup System</h4>
-                            <p>Our team are experts in matching you with the right provider.</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-lg-4 mb-3 col-md-6">
-                    <div class="service-block media">
-                        <div class="service-icon">
-                            <i class="ti-cloud"></i>
-                        </div>
-                        <div class="service-inner-content media-body">
-                            <h4>Cloud Hosting</h4>
-                            <p>Our team are experts in matching you with the right provider.</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-lg-4 mb-3 col-md-6">
-                    <div class="service-block media ">
-                        <div class="service-icon">
-                            <i class="ti-world"></i>
-                        </div>
-                        <div class="service-inner-content media-body">
-                            <h4>Web hosting</h4>
-                            <p>Our team are experts in matching you with the right provider.</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-lg-4 mb-3 col-md-6">
-                    <div class="service-block media ">
-                        <div class="service-icon">
-                            <i class="ti-server"></i>
-                        </div>
-                        <div class="service-inner-content media-body">
-                            <h4>Office Cloud</h4>
-                            <p>Our team are experts in matching you with the right provider.</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-block media">
-                        <div class="service-icon">
-                            <i class="ti-world"></i>
-                        </div>
-                        <div class="service-inner-content media-body">
-                            <h4>Web hosting</h4>
-                            <p>Our team are experts in matching you with the right provider.</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-block media">
-                        <div class="service-icon">
-                            <i class="ti-cloud"></i>
-                        </div>
-                        <div class="service-inner-content media-body">
-                            <h4>Office Cloud</h4>
-                            <p>Our team are experts in matching you with the right provider.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>   
-            
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <p class="pl-3">Want to know more about this? <a href="#!">Contact us</a></p>
-                </div>
-            </div>    
-        </div>
-    </section>
-<section class="section" id="services-2">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-8 col-lg-6 text-center">
-                    <div class="section-heading">
-                        <!-- Heading -->
-                        <h2 class="section-title mb-2 text-white">
-                            Web Services
-                        </h2>
-
-                        <!-- Subheading -->
-                        <p class="mb-5 text-white">
-                            Rappo can be used to create anything from a small marketing page to a sophisticated website.
-                        </p>
-                    </div>
-                </div>
-            </div> <!-- / .row -->
-
-            <div class="row">
-                <div class="col-lg-4 col-sm-6 col-md-6 mb-30">
-                    <div class="web-service-block">
-                        <i class="ti-light-bulb"></i>
-                        <h3>Creative Design</h3>
-                        <p>Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind had .</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 col-md-6 mb-30">
-                    <div class="web-service-block">
-                        <i class="ti-desktop"></i>
-                        <h3>Web Development</h3>
-                        <p>Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind had .</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 col-md-6 mb-30">
-                    <div class="web-service-block">
-                        <i class="ti-announcement"></i>
-                        <h3>Digital Marketing</h3>
-                        <p>Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind had .</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-sm-6 col-md-6 ">
-                    <div class="web-service-block">
-                        <i class="ti-layers-alt"></i>
-                        <h3>Graphic Design</h3>
-                        <p>Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind had .</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 col-md-6 ">
-                    <div class="web-service-block">
-                        <i class="ti-mobile"></i>
-                        <h3>App Development</h3>
-                        <p>Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind had .</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 col-md-6 ">
-                    <div class="web-service-block">
-                        <i class="ti-settings"></i>
-                        <h3>Wordpress Installation</h3>
-                        <p>Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind had .</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-<section class="section" id="pricing">
-        <!-- Content -->
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-8 col-lg-6 text-center">
-                    <div class="section-heading">
-                        <!-- Heading -->
-                        <h2 class="section-title">
-                            Affordable Price Plan
-                        </h2>
-
-                        <!-- Subheading -->
-                        <p>
-                            Rappo can be used to create anything from a small marketing page to a sophisticated website.
-                        </p>
-                    </div>
-                </div>
-            </div> <!-- / .row -->
-
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-sm-6 col-md-6">
-                    <div class="pricing-box">
-                       <h3>Stnadard</h3>
-                        <div class="price-block">
-                             <h2><small>$</small>13<span>monthly</span></h2>
-                        </div>
-
-                        <ul class="price-features list-unstyled">
-                            <li>Unlimited Domain</li>
-                            <li>Unmetered Bandwidth</li>
-                            <li>Free SSL Certificate </li>
-                            <li>20 Email Subscription</li>
-                            <li>SSD Hosting</li>
-                        </ul>
-
-                        <a href="#!" class="btn btn-outline-dark btn-circled">Purchase Now</a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 col-md-6">
-                    <div class="pricing-box">
-                        <h3>Premium</h3>
-                        <div class="price-block">
-                             <h2><small>$</small>23<span>monthly</span></h2>
-                        </div>
-
-                        <ul class="price-features list-unstyled">
-                            <li>Unlimited Domain</li>
-                            <li>Unmetered Bandwidth</li>
-                            <li>Free SSL Certificate </li>
-                            <li>20 Email Subscription</li>
-                            <li>SSD Hosting</li>
-                        </ul>
-
-                        <a href="#!" class="btn btn-primary btn-circled">Purchase Now</a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-8 col-md-6">
-                    <div class="pricing-box ">
-                        <h3>Business</h3>
-                        <div class="price-block">
-                             <h2><small>$</small>33<span>monthly</span></h2>
-                        </div>
-
-                        <ul class="price-features list-unstyled">
-                            <li>Unlimited Domain</li>
-                            <li>Unmetered Bandwidth</li>
-                            <li>Free SSL Certificate </li>
-                            <li>20 Email Subscription</li>
-                            <li>SSD Hosting</li>
-                        </ul>
-
-                        <a href="#!" class="btn btn-outline-dark btn-circled">Purchase Now</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
- <section id="work-wrap">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="section-heading">
-                            <h1>We are trying to deliver 100% quality product and success their business to achieve ultimate goal.</h1>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <p class="lead">We are providing best service since 1990 to present , committed to best service deliveryNullam metus enim, placerat in lacus vel, porttitor egestas libero. Etiam ex risus, feugiat eget accumsan eu, sagittis eu urna. In eget ultrices metus. Nunc accumsan </p>
-                    </div>
-                </div>
-            </div>
-        </section>
+<div class="container text-center my-4  ">
+    <h2 class="font-weight-light text-left my-3  " >
+   
     
-        <section id="work" class="section-bottom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 p-0">
-                        <div class="work-block">
-                            <img src="images/work/10.jpg" alt="work-img" class="img-fluid">
-                            <div class="overlay-content-block">
-                                <h4>Probiz portfolio template</h4>
-                                <p>Web Development</p>
-                                <a href="single-project.html"><i class="fa fa-link"></i></a>
-                            </div>
+    <svg xmlns="http://www.w3.org/2000/svg" width="30px"  height="30px" fill="#5672f9" class="bi bi-list" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+    </svg> 
+Danh mục sách</h2>
+
+<div class="line" style="width: 100%; height: 1px; background-color: #F2F4F5;">
+    <div></div>
+</div>
+
+    
+    <div class="row mx-auto my-auto">
+        <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
+            <div class="carousel-inner w-100" role="listbox">
+                <a class="carousel-item active" href="#">
+                    <div class="col-md-2">
+                        <div class="card card-body border border-0">
+                            <img class="" src="{{asset('assets/client/images/van-hoc.png')}}">
                         </div>
+                        <p>Văn học</p>
                     </div>
-                    <div class="col-lg-4 col-md-6 p-0">
-                        <div class="work-block">
-                            <img src="images/work/11.jpg" alt="work-img" class="img-fluid">
-                            <div class="overlay-content-block">
-                                <h4>Probiz portfolio template</h4>
-                                <p>Web Development</p>
-                                <a href="single-project.html"><i class="fa fa-link"></i></a>
-                            </div>
+                </a>
+                <a class="carousel-item">
+                    <div class="col-md-2">
+                        <div class="card card-body border border-0">
+                            <img class="" src="{{asset('assets/client/images/van-hoc.png')}}">
                         </div>
+                        <p>Văn học</p>
                     </div>
-                    <div class="col-lg-4 col-md-6 p-0">
-                        <div class="work-block">
-                            <img src="images/work/12.jpg" alt="work-img" class="img-fluid">
-                            <div class="overlay-content-block">
-                                <h4>Probiz portfolio template</h4>
-                                <p>Web Development</p>
-                                <a href="single-project.html"><i class="fa fa-link"></i></a>
-                            </div>
+                </a>
+                <a class="carousel-item">
+                    <div class="col-md-2">
+                        <div class="card card-body border border-0">
+                            <img class="" src="{{asset('assets/client/images/van-hoc.png')}}">
                         </div>
+                        <p>Văn học</p>
                     </div>
-                 
-                    <div class="col-lg-3 col-md-6 p-0">
-                        <div class="work-block">
-                            <img src="images/work/15.jpg" alt="work-img" class="img-fluid">
-                            <div class="overlay-content-block">
-                                <h4>Probiz portfolio template</h4>
-                                <p>Web Development</p>
-                                <a href="single-project.html"><i class="fa fa-link"></i></a>
-                            </div>
+                </a>
+                <a class="carousel-item">
+                    <div class="col-md-2">
+                        <div class="card card-body border border-0">
+                            <img class="" src="{{asset('assets/client/images/van-hoc.png')}}">
                         </div>
+                        <p>Văn học</p>
                     </div>
-                    <div class="col-lg-3 col-md-6 p-0">
-                        <div class="work-block">
-                            <img src="images/work/14.jpg" alt="work-img" class="img-fluid">
-                            <div class="overlay-content-block">
-                                <h4>Probiz portfolio template</h4>
-                                <p>Web Development</p>
-                                <a href="single-project.html"><i class="fa fa-link"></i></a>
-                            </div>
+                </a>
+                <a class="carousel-item">
+                    <div class="col-md-2">
+                        <div class="card card-body border border-0">
+                            <img class="" src="{{asset('assets/client/images/van-hoc.png')}}">
                         </div>
+                        <p>Văn học</p>
                     </div>
-                    <div class="col-lg-3 col-md-6 p-0">
-                        <div class="work-block">
-                            <img src="images/work/11.jpg" alt="work-img" class="img-fluid">
-                            <div class="overlay-content-block">
-                                <h4>Probiz portfolio template</h4>
-                                <p>Web Development</p>
-                                <a href="single-project.html"><i class="fa fa-link"></i></a>
-                            </div>
+                </a>
+                <a class="carousel-item">
+                    <div class="col-md-2">
+                        <div class="card card-body border border-0">
+                            <img class="" src="{{asset('assets/client/images/van-hoc.png')}}">
                         </div>
+                        <p>Văn học</p>
                     </div>
-                    <div class="col-lg-3 col-md-6 p-0">
-                            <div class="work-block">
-                                <img src="images/work/10.jpg" alt="work-img" class="img-fluid">
-                                <div class="overlay-content-block">
-                                    <h4>Probiz portfolio template</h4>
-                                    <p>Web Development</p>
-                                    <a href="single-project.html"><i class="fa fa-link"></i></a>
+                </a>
+            </div>
+            <a class="carousel-control-prev w-auto" href="#recipeCarousel" role="button" data-slide="prev"  >
+                <span class="carousel-control-prev-icon bg-primary border border-primary rounded-circle" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next w-auto"   href="#recipeCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon bg-primary border border-primary rounded-circle" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <!-- <h5 class="mt-2">Advances one slide at a time</h5> -->
+</div>
+
+<!-- End slide card category  -->
+
+
+    
+
+
+
+    <!--==========================================
+=            All Category Section            =
+===========================================-->
+
+    
+
+
+<section class="py-5">
+            <div class="container px-4 px-lg-5 mt-5">
+                <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Fancy Product</h5>
+                                    <!-- Product price-->
+                                    $40.00 - $80.00
                                 </div>
                             </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">View options</a></div>
+                            </div>
                         </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Sale badge-->
+                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Special Item</h5>
+                                    <!-- Product reviews-->
+                                    <div class="d-flex justify-content-center small text-warning mb-2">
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                    </div>
+                                    <!-- Product price-->
+                                    <span class="text-muted text-decoration-line-through">$20.00</span>
+                                    $18.00
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Sale badge-->
+                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Sale Item</h5>
+                                    <!-- Product price-->
+                                    <span class="text-muted text-decoration-line-through">$50.00</span>
+                                    $25.00
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Popular Item</h5>
+                                    <!-- Product reviews-->
+                                    <div class="d-flex justify-content-center small text-warning mb-2">
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                    </div>
+                                    <!-- Product price-->
+                                    $40.00
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Sale badge-->
+                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Sale Item</h5>
+                                    <!-- Product price-->
+                                    <span class="text-muted text-decoration-line-through">$50.00</span>
+                                    $25.00
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Fancy Product</h5>
+                                    <!-- Product price-->
+                                    $120.00 - $280.00
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">View options</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Sale badge-->
+                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Special Item</h5>
+                                    <!-- Product reviews-->
+                                    <div class="d-flex justify-content-center small text-warning mb-2">
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                    </div>
+                                    <!-- Product price-->
+                                    <span class="text-muted text-decoration-line-through">$20.00</span>
+                                    $18.00
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Popular Item</h5>
+                                    <!-- Product reviews-->
+                                    <div class="d-flex justify-content-center small text-warning mb-2">
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                    </div>
+                                    <!-- Product price-->
+                                    $40.00
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
-<section class="section" id="section-testimonial">
+        		<!-- pagination -->
+				<div class="pagination justify-content-center py-4">
+					<nav aria-label="Page navigation example">
+						<ul class="pagination">
+							<li class="page-item">
+								<a class="page-link" href="ad-list-view.html" aria-label="Previous">
+									<span aria-hidden="true">&laquo;</span>
+									<span class="sr-only">Previous</span>
+								</a>
+							</li>
+							<li class="page-item"><a class="page-link" href="ad-list-view.html">1</a></li>
+							<li class="page-item active"><a class="page-link" href="ad-list-view.html">2</a></li>
+							<li class="page-item"><a class="page-link" href="ad-list-view.html">3</a></li>
+							<li class="page-item">
+								<a class="page-link" href="ad-list-view.html" aria-label="Next">
+									<span aria-hidden="true">&raquo;</span>
+									<span class="sr-only">Next</span>
+								</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<!-- pagination -->
+
+   
+
+    <!--============================
+=            Footer            =
+=============================-->
+
+    <footer class="footer section section-sm">
+        <!-- Container Start -->
         <div class="container">
-           <div class="row align-items-center">
-                <div class="col-lg-4 col-sm-12 col-md-12">
-                    <div class="section-heading testimonial-heading">
-                        <h1>What they say <br>about us</h1>
-                        <p>Numquam doloribus impedit at consectetur molestiae tempora ratione possimus in veniam aperiam, eum consequuntur, unde. Earum ullam molestiae suscipit saepe sunt recusandae.</p>
+            <div class="row">
+                <div class="col-lg-3 col-md-7 offset-md-1 offset-lg-0 mb-4 mb-lg-0">
+                    <!-- About -->
+                    <div class="block about">
+                        <!-- footer logo -->
+                        <img src="{{asset('assets/client/images/logo-footer.png')}}" alt="logo">
+                        <!-- description -->
+                        <p class="alt-color">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.</p>
                     </div>
                 </div>
-                <div class="col-lg-8 col-sm-12 col-md-12">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="test-inner ">
-                               <div class="test-author-thumb d-flex">
-                                   <img src="images/client/test-1.jpg" alt="Testimonial author" class="img-fluid">
-                                   <div class="test-author-info">
-                                       <h4>Will Barrow</h4>
-                                       <h6>Sunrise Paradise Hotel</h6>
-                                   </div>
-                               </div>
-
-                                Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam, laudantium! Dolorem.
-
-                                <i class="fa fa-quote-right"></i>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="test-inner ">
-                               <div class="test-author-thumb d-flex">
-                                   <img src="images/client/test-2.jpg" alt="Testimonial author" class="img-fluid">
-                                   <div class="test-author-info">
-                                       <h4>Will Barrow</h4>
-                                       <h6>Sunrise Paradise Hotel</h6>
-                                   </div>
-                               </div>
-
-                                Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam, laudantium! Dolorem.
-
-                                <i class="fa fa-quote-right"></i>
-                            </div>
-                        </div>
+                <!-- Link list -->
+                <div class="col-lg-2 offset-lg-1 col-md-3 col-6 mb-4 mb-lg-0">
+                    <div class="block">
+                        <h4>Site Pages</h4>
+                        <ul>
+                            <li><a href="dashboard-my-ads.html">My Ads</a></li>
+                            <li><a href="dashboard-favourite-ads.html">Favourite Ads</a></li>
+                            <li><a href="dashboard-archived-ads.html">Archived Ads</a></li>
+                            <li><a href="dashboard-pending-ads.html">Pending Ads</a></li>
+                            <li><a href="terms-condition.html">Terms & Conditions</a></li>
+                        </ul>
                     </div>
-                    
-                     <div class="row">
-                        <div class="col-lg-6">
-                            <div class="test-inner ">
-                               <div class="test-author-thumb d-flex">
-                                   <img src="images/client/test-3.jpg" alt="Testimonial author" class="img-fluid">
-                                   <div class="test-author-info">
-                                       <h4>Will Barrow</h4>
-                                       <h6>Sunrise Paradise Hotel</h6>
-                                   </div>
-                               </div>
+                </div>
+                <!-- Link list -->
+                <div class="col-lg-2 col-md-3 offset-md-1 offset-lg-0 col-6 mb-4 mb-md-0">
+                    <div class="block">
+                        <h4>Admin Pages</h4>
+                        <ul>
+                            <li><a href="category.html">Category</a></li>
+                            <li><a href="single.html">Single Page</a></li>
+                            <li><a href="store.html">Store Single</a></li>
+                            <li><a href="single-blog.html">Single Post</a>
+                            </li>
+                            <li><a href="blog.html">Blog</a></li>
 
-                                Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam, laudantium! Dolorem.
 
-                                <i class="fa fa-quote-right"></i>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="test-inner ">
-                               <div class="test-author-thumb d-flex">
-                                   <img src="images/client/test-4.jpg" alt="Testimonial author" class="img-fluid">
-                                   <div class="test-author-info">
-                                       <h4>Will Barrow</h4>
-                                       <h6>Sunrise Paradise Hotel</h6>
-                                   </div>
-                               </div>
 
-                                Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam, laudantium! Dolorem.
-
-                                <i class="fa fa-quote-right"></i>
-                            </div>
-                        </div>
+                        </ul>
                     </div>
-                    
-                     <div class="row">
-                        <div class="col-lg-6">
-                            <div class="test-inner">
-                               <div class="test-author-thumb d-flex">
-                                   <img src="images/client/test-5.jpg" alt="Testimonial author" class="img-fluid">
-                                   <div class="test-author-info">
-                                       <h4>Will Barrow</h4>
-                                       <h6>Sunrise Paradise Hotel</h6>
-                                   </div>
-                               </div>
-
-                                Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam, laudantium! Dolorem.
-
-                                <i class="fa fa-quote-right"></i>
-                            </div>
+                </div>
+                <!-- Promotion -->
+                <div class="col-lg-4 col-md-7">
+                    <!-- App promotion -->
+                    <div class="block-2 app-promotion">
+                        <div class="mobile d-flex  align-items-center">
+                            <a href="index.html">
+                                <!-- Icon -->
+                                <img src="{{asset('assets/client/images/footer/phone-icon.png')}}" alt="mobile-icon">
+                            </a>
+                            <p class="mb-0">Get the Dealsy Mobile App and Save more</p>
                         </div>
-                        
-                        <div class="col-lg-6">
-                            <div class="test-inner">
-                               <div class="test-author-thumb d-flex">
-                                   <img src="images/client/test-6.jpg" alt="Testimonial author" class="img-fluid">
-                                   <div class="test-author-info">
-                                       <h4>Will Barrow</h4>
-                                       <h6>Sunrise Paradise Hotel</h6>
-                                   </div>
-                               </div>
-
-                                Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam, laudantium! Dolorem.
-
-                                <i class="fa fa-quote-right"></i>
-                            </div>
+                        <div class="download-btn d-flex my-3">
+                            <a href="index.html"><img src="{{asset('assets/client/images/apps/google-play-store.png')}}" class="img-fluid" alt=""></a>
+                            <a href="index.html" class=" ml-3"><img src="{{asset('assets/client/images/apps/apple-app-store.png')}}" class="img-fluid" alt=""></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
- <section class="section" id="blog">
+        <!-- Container End -->
+    </footer>
+    <!-- Footer Bottom -->
+    <footer class="footer-bottom">
+        <!-- Container Start -->
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-8 col-lg-6 text-center">
-                    <div class="section-heading">
-                        <!-- Heading -->
-                        <h2 class="section-title">
-                            Read our latest news
-                        </h2>
-
-                        <!-- Subheading -->
-                        <p>
-                            Our duty towards you is to share our experience we're reaching in our work path with you.
-                        </p>
+            <div class="row">
+                <div class="col-lg-6 text-center text-lg-left mb-3 mb-lg-0">
+                    <!-- Copyright -->
+                    <div class="copyright">
+                        <p>Copyright &copy; <script>
+                                var CurrentYear = new Date().getFullYear()
+                                document.write(CurrentYear)
+                            </script>. Designed & Developed by <a class="text-white" href="https://themefisher.com">Themefisher</a></p>
                     </div>
                 </div>
-            </div> <!-- / .row -->
-
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-md-6">
-                    <div class="blog-box">
-                        <div class="blog-img-box">
-                            <img src="images/blog/blog-1.jpg" alt="" class="img-fluid blog-img">
-                        </div>
-                        <div class="single-blog">
-                            <div class="blog-content">
-                                <h6> 17 October 2018</h6>
-                                <a href="#!">
-                                    <h3 class="card-title">Top tips to speed up your site in a speedy time</h3>
-                                </a>
-                                <p>There are many variations of passages Lorem Ipsum available, but majority have ama suffered altratio. the lorem.</p>
-                                <a href="#!" class="read-more">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="blog-box">
-                        <div class="blog-img-box">
-                            <img src="images/blog/blog-2.jpg" alt="" class="img-fluid blog-img">
-                        </div>
-                        <div class="single-blog">
-                            <div class="blog-content">
-                                <h6> 17 October 2018</h6>
-                                <a href="#!">
-                                    <h3 class="card-title">Brand your site value with marketing strategies</h3>
-                                </a>
-
-                                <p>There are many variations of passages Lorem Ipsum available, but majority have ama suffered altratio. the lorem.</p>
-                                 <a href="#!" class="read-more">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-8">
-                    <div class="blog-box">
-                        <div class="blog-img-box">
-                            <img src="images/blog/blog-3.jpg" alt="" class="img-fluid blog-img">
-                        </div>
-                        <div class="single-blog">
-                            <div class="blog-content">
-                                <h6> 17 October 2018</h6>
-                                <a href="#!">
-                                    <h3 class="card-title">Website Optimization is very essential for site speed</h3>
-                                </a>
-                                <p>There are many variations of passages Lorem Ipsum available, but majority have ama suffered altratio. the lorem.</p>
-                                 <a href="#!" class="read-more">Read More</a>
-                            </div>
-                        </div>
-                    </div>
+                <div class="col-lg-6">
+                    <!-- Social Icons -->
+                    <ul class="social-media-icons text-center text-lg-right">
+                        <li><a class="fa fa-facebook" href="https://www.facebook.com/themefisher"></a></li>
+                        <li><a class="fa fa-twitter" href="https://www.twitter.com/themefisher"></a></li>
+                        <li><a class="fa fa-pinterest-p" href="https://www.pinterest.com/themefisher"></a></li>
+                        <li><a class="fa fa-github-alt" href="https://www.github.com/themefisher"></a></li>
+                    </ul>
                 </div>
             </div>
         </div>
-    </section>
+        <!-- Container End -->
+        <!-- To Top -->
+        <div class="scroll-top-to">
+            <i class="fa fa-angle-up"></i>
+        </div>
+    </footer>
 
- <footer class="section " id="footer">
-   <div class="overlay footer-overlay"></div>
-   <!--Content -->
-   <div class="container">
-     <div class="row justify-content-start">
-       <div class="col-lg-4 col-sm-12">
-         <div class="footer-widget">
-           <!-- Brand -->
-           <a href="index.html" class="footer-brand text-white">
-             Rappo
-           </a>
-           <p>Each theme featured at the Bootstrap marketplace has been reviewed by Bootstrap's creators.Lorem ipsum
-             dolor sit amet, consectetur adipisicing elit.</p>
-         </div>
-       </div>
+    <!-- 
+Essential Scripts
+=====================================-->
+    <script src="{{asset('assets/client/plugins/jquery/jquery.min.js')}}"></script>
+    <script src="{{asset('assets/client/plugins/bootstrap/popper.min.js')}}"></script>
+    <script src="{{asset('assets/client/plugins/bootstrap/bootstrap.min.js')}}"></script>
+    <script src="{{asset('assets/client/plugins/bootstrap/bootstrap-slider.js')}}"></script>
+    <script src="{{asset('assets/client/plugins/tether/js/tether.min.js')}}"></script>
+    <script src="{{asset('assets/client/plugins/raty/jquery.raty-fa.js')}}"></script>
+    <script src="{{asset('assets/client/plugins/slick/slick.min.js')}}"></script>
+    <script src="{{asset('assets/client/plugins/jquery-nice-select/js/jquery.nice-select.min.js')}}"></script>
+    <!-- google map -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU" defer></script>
+    <script src="plugins/google-map/map.js" defer></script>
 
-       <div class="col-lg-3 ml-lg-auto col-sm-12">
-         <div class="footer-widget">
-           <h3>Account</h3>
-           <!-- Links -->
-           <ul class="footer-links ">
-             <li>
-               <a href="#!">
-                 Terms and conditions
-               </a>
-             </li>
-             <li>
-               <a href="#!">
-                 Privacy policy
-               </a>
-             </li>
-             <li>
-               <a href="#!">
-                 Affiliate services
-               </a>
-             </li>
-             <li>
-               <a href="#!">
-                 Help and support
-               </a>
-             </li>
-             <li>
-               <a href="#!">
-                 Frequently Asked Question
-               </a>
-             </li>
-           </ul>
-         </div>
-       </div>
-
-
-       <div class="col-lg-2 col-sm-6">
-         <div class="footer-widget">
-           <h3>About</h3>
-           <!-- Links -->
-           <ul class="footer-links">
-            <li>
-              <a href="about.html">
-                About Us
-              </a>
-            </li>
-             <li>
-               <a href="service.html">
-                 Services
-               </a>
-             </li>
-             <li>
-               <a href="pricing.html">
-                 Pricing
-               </a>
-             </li>
-             <li>
-               <a href="project.html">
-                Recent Projects
-               </a>
-             </li>
-
-             <li>
-               <a href="contact.html">
-                 Contact
-               </a>
-             </li>
-           </ul>
-         </div>
-       </div>
-
-       <div class="col-lg-2 col-sm-6">
-         <div class="footer-widget">
-           <h3>Socials</h3>
-           <!-- Links -->
-           <ul class="list-unstyled footer-links">
-             <li><a href="https://www.facebook.com/themefisher"><i class="fab fa-facebook-f"></i>Facebook</a></li>
-             <li>
-               <a href="https://www.twitter.com/themefisher"><i class="fab fa-twitter"></i>Twitter
-               </a></li>
-             <li><a href="https://www.pinterest.com/themefisher/"><i class="fab fa-pinterest-p"></i>Pinterest
-               </a></li>
-             <li><a href="https://themefisher.com/"><i class="fab fa-linkedin"></i>linkedin
-               </a></li>
-             <li><a href="https://www.youtube.com/channel/UCx9qVW8VF0LmTi4OF2F8YdA"><i class="fab fa-youtube"></i>YouTube
-               </a></li>
-           </ul>
-         </div>
-       </div>
-     </div> <!-- / .row -->
-
-
-     <div class="row text-right pt-5">
-       <div class="col-lg-12">
-         <div class="overflow-hidden">
-           <!-- Copyright -->
-          <p class="footer-copy">
-            Copyright &copy; <script>var CurrentYear = new Date().getFullYear()
-            document.write(CurrentYear)
-          </script>. Designed &amp; Developed by <a class="current-year" href="https://themefisher.com/">Themefisher</a>
-          </p>
-         </div>
-       </div>
-     </div> <!-- / .row -->
-   </div> <!-- / .container -->
- </footer>
-
-
- <!--  Page Scroll to Top  -->
-
- <a id="scroll-to-top" class="scroll-to-top js-scroll-trigger" href="#top-header">
-   <i class="fa fa-angle-up"></i>
- </a>
-
-  <!-- 
-  Essential Scripts
-  =====================================-->
-  <!-- jQuery -->
-  <script src="plugins/jquery/jquery.min.js"></script>
-  <!-- Bootstrap -->
-  <script src="plugins/bootstrap/bootstrap.min.js"></script>
-  <!-- Slick Slider -->
-  <script src="plugins/slick-carousel/slick/slick.min.js"></script>
-  <!-- Google Map -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU"></script>
-  <script src="plugins/google-map/gmap.js"></script>
-
-  <script src="js/script.js"></script>
+    <script src="{{asset('assets/client/js/script.js')}}"></script>
 
 </body>
+
 </html>
-   

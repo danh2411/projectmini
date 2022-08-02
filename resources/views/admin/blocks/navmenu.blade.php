@@ -24,32 +24,32 @@
                             <div class="col-lg-6 col-md-7 col-sm-6 col-xs-12">
 
                             </div>
-                            <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 ">
-                                <div class="header-right-info">
-                                    <ul class="nav navbar-nav mai-top-nav header-right-menu">
-                                        <li class="nav-item " style="margin-right: 32px;">
-                                            <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle ">
-                                                <img src="{{asset('assets/admin/img/product/pro4.jpg')}}" alt="" />
-                                                <span class="admin-name">{{ Auth::user()->name }}</span>
-                                                <i class="fa fa-angle-down edu-icon edu-down-arrow"></i>
-                                            </a>
-                                            <ul role="menu" class="dropdown-header-top author-log dropdown-menu animated zoomIn">
+                                <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 ">
+                                    <div class="header-right-info">
+                                        <ul class="nav navbar-nav mai-top-nav header-right-menu">
+                                            <li class="nav-item " style="margin-right: 32px;">
+                                                <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle ">
+                                                    <img src="{{asset('assets/admin/img/product/pro4.jpg')}}" alt="" />
+                                                    <span class="admin-name">{{ Auth::user()->name }}</span>
+                                                    <i class="fa fa-angle-down edu-icon edu-down-arrow"></i>
+                                                </a>
+                                                <ul role="menu" class="dropdown-header-top author-log dropdown-menu animated zoomIn">
 
-                                                <li>
-                                                    <form method="POST" action="{{ route('logout') }}">
-                                                        @csrf
+                                                    <li>
+                                                        <form method="POST" action="{{ route('logout') }}">
+                                                            @csrf
 
-                                                        <x-dropdown-link :href="route('logout')" onclick="event.preventDefault();
-                                                this.closest('form').submit();">
-                                                            {{ __('Đăng xuất') }}
-                                                        </x-dropdown-link>
-                                                    </form>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
+                                                            <x-dropdown-link :href="route('logout')" onclick="event.preventDefault();
+                                                    this.closest('form').submit();">
+                                                                {{ __('Đăng xuất') }}
+                                                            </x-dropdown-link>
+                                                        </form>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
-                            </div>
                         </div>
                     </div>
                 </div>

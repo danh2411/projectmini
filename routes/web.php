@@ -23,10 +23,13 @@ Route::get('/dashboard', function () {
 
 require __DIR__.'/auth.php';
 
-Route::get('/admin', function () {
-    return view('admin/homeadmin');
-});
 
+
+
+// admin
+
+//dashboard
+Route::get('/admin', function () { return view('admin/homeadmin');});
 
 // category books
 Route::get('/them-danh-muc', function () { return view('admin/categorys/add'); })->name('addCategory');
@@ -49,3 +52,12 @@ Route::get('/comments-rates', function () { return view('admin/comments_rates/li
 Route::get('/them-khach-hang', function () { return view('admin/members/add'); })->name('addMember');
 Route::get('/khach-hang', function () { return view('admin/members/list'); })->name('listMember');
 Route::get('/chinh-sua-thong-tin-khach-hang', function () { return view('admin/members/edit'); })->name('editMember');
+
+
+
+//client
+
+//Home
+Route::get('/wellcome', function () { return view('layouts/client');});
+
+
