@@ -17,11 +17,9 @@ return new class extends Migration
             $table->id('ma_tinhtrang');
             $table->unsignedBigInteger('ma_chitiet');
             $table->integer('tinhtrang');
-        
 
-              $table->foreign('ma_chitiet')
-            ->references('ma_chitiet')->on('chitiet')
-            ->onDelete('cascade');
+
+           
         });
     }
 

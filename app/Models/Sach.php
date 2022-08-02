@@ -22,4 +22,5 @@ class Sach extends Model
         return $this->belongsTo(Nxb::class);
 
     }
+    
 }
