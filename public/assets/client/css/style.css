@@ -9,12 +9,14 @@
 @import url("https://fonts.googleapis.com/css?family=Muli:300,400,600,700,800,900");
 
 body {
-  --home: ##5672f9;
-  --white: #faf0e6;
+  --home: red;
+  --white: #fffefe;
+  --black: #000;
 }
 body {
   line-height: 1.5;
   font-family: "Muli", sans-serif;
+  background-color: #f0f0f0;
 }
 
 p, li, input, select, button {
@@ -610,7 +612,7 @@ ul.pagination .active a {
 }
 
 .bg-gray {
-  background: #F5F5F5;
+  background: #f0f0f0;
 }
 
 .bg-1 {
@@ -732,11 +734,16 @@ ul.pagination .active a {
   padding: 0;
   border-radius: 0;
 }
+
 .dropdown-menu li:first-child {
   margin-top: 12px;
 }
 .dropdown-menu li:last-child {
   margin-bottom: 12px;
+  /* margin-top: 12px; */
+}
+.items-menu-account{
+  margin-top: 12px;
 }
 
 .nav-item.dropdown {
@@ -875,7 +882,7 @@ ul.pagination .active a {
 }
 
 .hero-area {
-  padding: 300px 0 0;
+  padding: 15% 0 0;
 }
 .hero-area .content-block {
   padding-bottom: 80px;
@@ -947,6 +954,15 @@ transform: translateX(0);
   max-width: 100%;
   height: auto;
 }
+.form-content{
+  background-color: #fff;
+  border-radius: 8px;
+}
+.all-product{
+  background-color: #fff;
+  /* border-radius: 8px; */
+}
+
 
 .container.text-center.my-4>h2{
   font-family: "Muli", sans-serif;
@@ -955,19 +971,22 @@ transform: translateX(0);
     font-size: 30px;
     letter-spacing: 0.05em;
     text-align: center;
-    font-size: 30px;
- 
-     
-
-    
+    font-size: 30px;   
 }
 
 .font-weight-light.text-left.my-3>svg{
   margin-bottom: 6px;
 }
 
-.carousel-control-prev-icon.bg-dark.border.border-dark.rounded-circle{
-  background-color:#5672f9;
+.button-next-prev>span{
+  border-color:var(--home)!important;
+  background-color: var(--home)!important;
+}
+#recipeCarousel>p{
+  color:var(--black);
+}
+.carousel-item>:hover.text-dark{
+  color:var(--home) !important;
 }
 
 
@@ -2367,3 +2386,20 @@ form textarea {
   }
 }
 /*# sourceMappingURL=style.css.map */
+
+
+.header-container{
+  background-color: var(--white);
+}
+
+.pd-15px{
+  padding: 0;
+}
+
+.pd-left-none{
+  padding-left: 0;
+}
+
+.pd-right-none{
+  padding-right: 0;
+}

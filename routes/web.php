@@ -58,6 +58,24 @@ Route::get('/chinh-sua-thong-tin-khach-hang', function () { return view('admin/m
 //client
 
 //Home
-Route::get('/wellcome', function () { return view('layouts/client');});
+Route::get('/home', function () { return view('client.home');})->name('home');
+
+// books
+Route::get('/xxx', function () { return view('client.books.books');})->name('books');
+Route::get('/chi-tiet-sach', function () { return view('client.books.detailsBook');})->name('detailsBook');
+
+// cart
+Route::get('/gio-sach', function () { return view('client.carts.cart');})->name('cart');
+
+// historyCart
+Route::get('/lich-su', function () { return view('client.carts.historyCart');})->name('historyCart');
+
+// detailsAccount
+Route::get('/tai-khoan-cua-ban', function () { return view('client.users.user');})->name('user');
+
+
+
+
+
 
 
