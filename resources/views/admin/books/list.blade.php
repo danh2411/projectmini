@@ -25,7 +25,7 @@
                                     </tr>
                                     <tr>
                                         <td>1</td>
-                                        <td><img src="img/product/book-1.jpg" alt="" /></td>
+                                        <td><img src="{{asset('assets/admin/img/product/123.jpg')}}" alt="" /></td>
                                         <td>Web Development Book</td>
                                         <td>
                                             <button class="pd-setting">Active</button>

@@ -29,11 +29,14 @@
                                                                 </div>
                                                                 <div class="form-group alert-up-pd">
                                                                     <div class="dz-message needsclick download-custom">
+                           
                                                                         <i class="fa fa-download edudropnone" aria-hidden="true"></i>
+                                                                        <input type="file" class="form-control-file mt-2 pt-1" id="input-file" >
                                                                         <h2 class="edudropnone">Drop image here or click to upload.</h2>
-                                                                        <p class="edudropnone"><span class="note needsclick">(This is just a demo dropzone. Selected image is <strong>not</strong> actually uploaded.)</span>
-                                                                        </p>
-                                                                        <input name="imageico" class="hd-pro-img" type="text" />
+
+                                                                
+
+
                                                                     </div>
                                                                 </div>
                                                             </div>

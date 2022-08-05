@@ -646,7 +646,7 @@ ul.pagination .active a {
 }
 
 .login-button {
-  border: 2px solid #dedede;
+  /* border: 2px solid #dedede; */
   margin-right: 8px;
   padding: 6px 20px !important;
 }
@@ -655,6 +655,7 @@ ul.pagination .active a {
     display: inline-block;
     padding: 6px 45px !important;
     margin: 5px 0;
+    
   }
 }
 @media (max-width: 480px) {
@@ -676,9 +677,14 @@ ul.pagination .active a {
     display: inline-block;
     padding: 6px 45px !important;
     margin: 5px 0;
+    width: 100%;
   }
 }
 
+@media (max-width: 992px) {
+
+
+}
 .add-button {
   background: #28a745;
   color: #fff;
@@ -2402,4 +2408,10 @@ form textarea {
 
 .pd-right-none{
   padding-right: 0;
+}
+.search-header{
+  width: 70%;
+}
+.bgcolor-home{
+  background-color: var(--home) !important;
 }

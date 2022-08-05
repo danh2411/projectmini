@@ -100,7 +100,7 @@
 								<option value="4">Highest Price</option>
 							</select>
 						</div>
-						<div class="col-md-6 text-center text-md-right mt-2 mt-md-0">
+						<!-- <div class="col-md-6 text-center text-md-right mt-2 mt-md-0">
 							<div class="view">
 								<strong>Views</strong>
 								<ul class="list-inline view-switcher">
@@ -112,7 +112,7 @@
 									</li>
 								</ul>
 							</div>
-						</div>
+						</div> -->
 					</div>
 				</div>
 
