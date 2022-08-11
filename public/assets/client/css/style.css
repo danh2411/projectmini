@@ -2437,29 +2437,63 @@ form textarea {
   border-bottom-right-radius:5px;
 }
 
-.Category_logo:hover{
-  cursor: pointer;
-}
 
 
 
 .body-wrapper{
   position: relative;
+  z-index: 10000;
 }
+.Category_logo:hover{
+  cursor: pointer;
+}
+.Category_logo:hover>.dropdown_menu_cover,
+.Category_logo:hover>.dropdown_menu_category{
+ display: block;
+}
+
 .dropdown_menu_category{
   position: absolute;
-  display: block;
+  display: none;
   top: 0;
-  right: 0;
-  bottom: -600px;
-  left: 0;
+  right: -30px;
+  bottom: -500px;
+  left: -30px;
   background-color:var(--white);
-  z-index: 9;
+  z-index: 999;
   margin-top: 95px;
   padding: 24px 12px 16px 12px;
   text-align: left;
   color: #212121;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgb(32 33 36 / 28%);
 
+}
+.dropdown_menu_category::after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  background-color: transparent;
+  height: 40px;
+  top: -35px;
+  right: 0;
+  
+}
+.dropdown_menu_cover{
+  display: none;
+}
+.dropdown_menu_cover_over{
+  position: absolute;
+  top: 95px;
+  right: -20px;
+  bottom: -500px;
+  left: -20px;
+  margin-left: -99px;
+  /* margin: 0px -999px -999px -999px; */
+  background: rgb(87, 87, 87) none repeat scroll 0% 0%;
+  opacity: 0.5;
+  z-index: 99;
+  
 }
 
 .list-group_menu_category{
@@ -2475,17 +2509,51 @@ form textarea {
     margin-right: 0;
     margin-left: 0;
 }
-
-
 .category_item_mini .row>div{
     margin: 8px 0 8px 0;
     padding-right: 0;
     margin-left: 24px;
-   
-
 }
-.dropdown_menu_cover{
-  
 
+.header-all-product .btn-nav{
+  font-size: 10px;
+    letter-spacing: 1px;
+    display: inline-block;
+    /* padding: 15px 30px; */
+    border-radius: 4px;
+    margin-left: 12px;
 }
+
+
+/* nav offer product */
+.navbar-1>ul{
+  justify-content:end;
+}
+@media (max-width: 992px) {
+  .navbar-1>ul>li>a{ 
+    padding: 4px 8px 4px 8px !important;
+  }
+}
+@media (max-width: 768px) {
+  .navbar-1{
+    margin-inline: auto;
+    justify-content:center !important;
+  }
+}
+
+
+.nav-pills .nav-link.active{
+      color : var(--home);
+     background-color: var(--white);
+     border:1px solid var(--home);
+     
+}
+.nav-link{
+  font-size: 15px;
+}
+.nav-link:hover{
+  color : var(--home);
+}
+
+
 

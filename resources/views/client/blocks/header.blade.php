@@ -14,7 +14,7 @@
                         <!-- category nav -->
 
                         <div class="Category_nav pl-3 navbar-nav  main-nav ">
-                            <a class="Category_logo">
+                            <div class="Category_logo">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="var(--home)" class="bi bi-columns-gap" viewBox="0 0 16 16">
                                     <path d="M6 1v3H1V1h5zM1 0a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1H1zm14 12v3h-5v-3h5zm-5-1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-5zM6 8v7H1V8h5zM1 7a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1H1zm14-6v7h-5V1h5zm-5-1a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1h-5z" />
                                 </svg>
@@ -22,144 +22,144 @@
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="var(--home)" class="bi bi-chevron-down" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
                                 </svg>
-                            </a>
+
+
+                                <!-- category drop down -->
+                                <div class="dropdown_menu_category">
+                                    <div style="width:25%; float:left;">
+                                        <div style=" width: 100%;font-weight: bold;font-size: 1.7em;color: #7A7E7F; text-align: left;padding: 0 12px;margin-bottom: 16px;"> Product Category </div>
+                                        <div class="list-group list-group_menu_category">
+                                            <a href="#" class="list-group-item list-group-item-action ">The current link item</a>
+                                            <a href="#" class="list-group-item list-group-item-action ">A second link item</a>
+                                            <a href="#" class="list-group-item list-group-item-action">A third link item</a>
+                                            <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
+                                            <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
+                                            <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
+                                            <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
+                                            <a href="#" class="list-group-item list-group-item-action ">A fourth link item</a>
+
+                                        </div>
+                                    </div>
+
+                                    <div style="width: 12px; border-right: 1px solid #CDCFD0; float: left ;height:100%"></div>
+
+                                    <div class="category_item_mini" style="padding-right: 2px; float: left; width:73%">
+                                        <div class="category_item_mini_title" style="width: 100%;font-weight: bold;font-size: 1.7em;color: #000000; text-align: left;padding: 0 12px;margin-bottom: 5px; padding-left: 24px;">Title Sách</div>
+                                        <div class="row">
+                                            <div class="col-sm-2 ">
+                                                <h3>hello</h3>
+                                                <ul>
+                                                    <li><a href="">1</a></li>
+                                                    <li><a href="">1</a></li>
+                                                    <li><a href="">1</a></li>
+                                                    <li><a style="color : #2489f4;" href="">xem tất cả</a></li>
+
+
+                                                </ul>
+                                            </div>
+                                            <div class="col-sm-2 ">
+                                                <h3>hello</h3>
+                                                <ul>
+                                                    <li><a href="">1</a></li>
+                                                    <li><a href="">1</a></li>
+                                                    <li><a href="">1</a></li>
+                                                    <li><a style="color : #2489f4;" href="">xem tất cả</a></li>
+
+                                                </ul>
+                                            </div>
+                                            <div class="col-sm-2 ">
+                                                <h3>hello</h3>
+                                                <ul>
+                                                    <li><a href="">1</a></li>
+                                                    <li><a href="">1</a></li>
+                                                    <li><a href="">1</a></li>
+                                                    <li><a style="color : #2489f4;" href="">xem tất cả</a></li>
+
+                                                </ul>
+                                            </div>
+                                            <div class="col-sm-2 ">
+                                                <h3>hello</h3>
+                                                <ul>
+                                                    <li><a href="">1</a></li>
+                                                    <li><a href="">1</a></li>
+                                                    <li><a href="">1</a></li>
+                                                    <li><a style="color : #2489f4;" href="">xem tất cả</a></li>
+
+                                                </ul>
+                                            </div>
+                                            <div class="col-sm-2 ">
+                                                <h3>hello</h3>
+                                                <ul>
+                                                    <li><a href="">1</a></li>
+                                                    <li><a href="">1</a></li>
+                                                    <li><a href="">1</a></li>
+                                                    <li><a style="color : #2489f4;" href="">xem tất cả</a></li>
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-2 ">
+                                                <h3>hello</h3>
+                                                <ul>
+                                                    <li><a href="">1</a></li>
+                                                    <li><a href="">1</a></li>
+                                                    <li><a href="">1</a></li>
+                                                    <li><a style="color : #2489f4;" href="">xem tất cả</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-sm-2 ">
+                                                <h3>hello</h3>
+                                                <ul>
+                                                    <li><a href="">1</a></li>
+                                                    <li><a href="">1</a></li>
+                                                    <li><a href="">1</a></li>
+                                                    <li><a style="color : #2489f4" href="">xem tất cả</a></li>
+
+                                                </ul>
+                                            </div>
+                                            <div class="col-sm-2 ">
+                                                <h3>hello</h3>
+                                                <ul>
+                                                    <li><a href="">1</a></li>
+                                                    <li><a href="">1</a></li>
+                                                    <li><a href="">1</a></li>
+                                                    <li><a style="color : #2489f4" href="">xem tất cả</a></li>
+
+                                                </ul>
+                                            </div>
+                                            <div class="col-sm-2 ">
+                                                <h3>hello</h3>
+                                                <ul>
+                                                    <li><a href="">1</a></li>
+                                                    <li><a href="">1</a></li>
+                                                    <li><a href="">1</a></li>
+                                                    <li><a style="color : #2489f4" href="">xem tất cả</a></li>
+
+                                                </ul>
+                                            </div>
+                                            <div class="col-sm-2 ">
+                                                <h3>hello</h3>
+                                                <ul>
+                                                    <li><a href="">1</a></li>
+                                                    <li><a href="">1</a></li>
+                                                    <li><a href="">1</a></li>
+                                                    <li><a style="color : #2489f4" href="">xem tất cả</a></li>
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- category drop down -->
+
+                                <!-- dropdown cover -->
+                                <div class="dropdown_menu_cover">
+                                    <div class="dropdown_menu_cover_over"></div>
+                                </div>
+                                <!-- dropdown cover -->
+                            </div>
                         </div>
-
-                        <!-- category drop down -->
-                        <div class="dropdown_menu_category">
-                            <div style="width:25%; float:left;">
-                                <div style=" width: 100%;font-weight: bold;font-size: 1.7em;color: #7A7E7F; text-align: left;padding: 0 12px;margin-bottom: 16px;"> Product Category </div>
-                                <div class="list-group list-group_menu_category">
-                                    <a href="#" class="list-group-item list-group-item-action ">The current link item</a>
-                                    <a href="#" class="list-group-item list-group-item-action ">A second link item</a>
-                                    <a href="#" class="list-group-item list-group-item-action">A third link item</a>
-                                    <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
-                                    <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
-                                    <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
-                                    <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
-                                    <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
-                                    <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
-                                    <a href="#" class="list-group-item list-group-item-action active">A fourth link item</a>
-                                   
-                                </div>
-                            </div>
-
-                            <div style="width: 12px; border-right: 1px solid #CDCFD0; float: left ;height:100%"></div>
-
-                            <div class="category_item_mini" style="padding-right: 2px; float: left; width:73%">
-                                <div class="category_item_mini_title" style="width: 100%;font-weight: bold;font-size: 1.7em;color: #000000; text-align: left;padding: 0 12px;margin-bottom: 5px; padding-left: 24px;">Title Sách</div>
-                                <div class="row">
-                                    <div class="col-sm-2 ">
-                                        <h3>hello</h3>
-                                        <ul>
-                                            <li><a href="">1</a></li>
-                                            <li><a href="">1</a></li>
-                                            <li><a href="">1</a></li>
-                                            <li><a style="color : #2489f4;" href="">xem tất cả</a></li>
-
-                                            
-                                        </ul>
-                                    </div>
-                                    <div class="col-sm-2 ">
-                                        <h3>hello</h3>
-                                        <ul>
-                                            <li><a href="">1</a></li>
-                                            <li><a href="">1</a></li>
-                                            <li><a href="">1</a></li>
-                                            <li><a style="color : #2489f4;" href="">xem tất cả</a></li>
-
-                                        </ul>
-                                    </div>
-                                    <div class="col-sm-2 ">
-                                        <h3>hello</h3>
-                                        <ul>
-                                            <li><a href="">1</a></li>
-                                            <li><a href="">1</a></li>
-                                            <li><a href="">1</a></li>
-                                            <li><a style="color : #2489f4;" href="">xem tất cả</a></li>
-
-                                        </ul>
-                                    </div>
-                                    <div class="col-sm-2 ">
-                                        <h3>hello</h3>
-                                        <ul>
-                                            <li><a href="">1</a></li>
-                                            <li><a href="">1</a></li>
-                                            <li><a href="">1</a></li>
-                                            <li><a style="color : #2489f4;" href="">xem tất cả</a></li>
-
-                                        </ul>
-                                    </div>
-                                    <div class="col-sm-2 ">
-                                        <h3>hello</h3>
-                                        <ul>
-                                            <li><a href="">1</a></li>
-                                            <li><a href="">1</a></li>
-                                            <li><a href="">1</a></li>
-                                            <li><a style="color : #2489f4;" href="">xem tất cả</a></li>
-
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-sm-2 ">
-                                        <h3>hello</h3>
-                                        <ul>
-                                            <li><a href="">1</a></li>
-                                            <li><a href="">1</a></li>
-                                            <li><a href="">1</a></li>
-                                            <li><a style="color : #2489f4;" href="">xem tất cả</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-sm-2 ">
-                                        <h3>hello</h3>
-                                        <ul>
-                                            <li><a href="">1</a></li>
-                                            <li><a href="">1</a></li>
-                                            <li><a href="">1</a></li>
-                                            <li><a style="color : #2489f4" href="">xem tất cả</a></li>
-
-                                        </ul>
-                                    </div>
-                                    <div class="col-sm-2 ">
-                                        <h3>hello</h3>
-                                        <ul>
-                                            <li><a href="">1</a></li>
-                                            <li><a href="">1</a></li>
-                                            <li><a href="">1</a></li>
-                                            <li><a style="color : #2489f4" href="">xem tất cả</a></li>
-
-                                        </ul>
-                                    </div>
-                                    <div class="col-sm-2 ">
-                                        <h3>hello</h3>
-                                        <ul>
-                                            <li><a href="">1</a></li>
-                                            <li><a href="">1</a></li>
-                                            <li><a href="">1</a></li>
-                                            <li><a style="color : #2489f4" href="">xem tất cả</a></li>
-
-                                        </ul>
-                                    </div>
-                                    <div class="col-sm-2 ">
-                                        <h3>hello</h3>
-                                        <ul>
-                                            <li><a href="">1</a></li>
-                                            <li><a href="">1</a></li>
-                                            <li><a href="">1</a></li>
-                                            <li><a style="color : #2489f4" href="">xem tất cả</a></li>
-
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="dropdown_menu_cover">
-
-                            </div>
-                            
-                        </div>
-                        <!-- category drop down -->
 
                         <!-- category nav -->
 
