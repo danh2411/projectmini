@@ -23,12 +23,7 @@
 					</div>
 					<!-- Dashboard Links -->
           <div class="widget user-dashboard-menu">
-            <ul>
-              <li><a href="index.html">Savings Dashboard</a></li>
-              <li><a href="index.html">Saved Offer <span>(5)</span></a></li>
-              <li><a href="index.html">Favourite Stores <span>(3)</span></a></li>
-              <li><a href="index.html">Recommended</a></li>
-            </ul>
+           
           </div>
 				</div>
 			</div>

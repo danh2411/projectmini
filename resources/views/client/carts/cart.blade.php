@@ -17,25 +17,25 @@
 					<div class="widget user-dashboard-profile">
 						<!-- User Image -->
 						<div class="profile-thumb">
-						<img src="{{asset('assets/client/images/user/user-thumb.jpg')}}" alt="" class="rounded-circle">
+							<img src="{{asset('assets/client/images/user/user-thumb.jpg')}}" alt="" class="rounded-circle">
 						</div>
 						<!-- User Name -->
 						<h5 class="text-center">Samanta Doe</h5>
 						<p>Joined February 06, 2017</p>
-						<a href="user-profile.html" class="btn btn-main-sm">Edit Profile</a>
+						<a href="{{route('user')}}" class="btn btn-main-sm">Edit Profile</a>
 					</div>
 					<!-- Dashboard Links -->
 					<div class="widget user-dashboard-menu">
 						<ul>
-							<li>	
+							<li>
 								<form method="POST" action="{{ route('logout') }}">
-                                                            @csrf
+									@csrf
 
-                                                            <x-dropdown-link :href="route('logout')" onclick="event.preventDefault();
+									<x-dropdown-link :href="route('logout')" onclick="event.preventDefault();
                                                                 this.closest('form').submit();">
-                                                               <i class="fa fa-cog"></i> {{ __('Đăng xuất') }}
-                                                            </x-dropdown-link>
-                                    </form>
+										<i class="fa fa-cog"></i> {{ __('Đăng xuất') }}
+									</x-dropdown-link>
+								</form>
 							</li>
 						</ul>
 					</div>
@@ -59,10 +59,11 @@
 						<tbody>
 
 
-	<!-- a product of cart  -->	
+							<!-- a product of cart  -->
 							<tr>
 								<td class="product-thumb">
-									<img width="80px" height="auto" src="{{asset('assets/client/images/products/products-1.jpg')}}" alt="image description"></td>
+									<img width="80px" height="auto" src="{{asset('assets/client/images/products/products-1.jpg')}}" alt="image description">
+								</td>
 								<td class="product-details">
 									<h3 class="title">Macbook Pro 15inch</h3>
 									<span class="add-id"><strong>Ad ID:</strong> ng3D5hAMHPajQrM</span>
@@ -79,39 +80,7 @@
 													<i class="fa fa-eye"></i>
 												</a>
 											</li>
-											
-											<li class="list-inline-item">
-												<a data-toggle="tooltip" data-placement="top" title="Delete" class="delete" href="dashboard-my-ads.html">
-													<i class="fa fa-trash"></i>
-												</a>
-											</li>
-										</ul>
-									</div>
-								</td>
-							</tr>
-	<!-- a product of cart  -->	
 
-	<!-- a product of cart  -->	
-	<tr>
-								<td class="product-thumb">
-									<img width="80px" height="auto" src="{{asset('assets/client/images/products/products-1.jpg')}}" alt="image description"></td>
-								<td class="product-details">
-									<h3 class="title">Macbook Pro 15inch</h3>
-									<span class="add-id"><strong>Ad ID:</strong> ng3D5hAMHPajQrM</span>
-									<span><strong>Posted on: </strong><time>Jun 27, 2017</time> </span>
-									<span class="status active"><strong>Status</strong>Active</span>
-									<span class="location"><strong>Location</strong>Dhaka,Bangladesh</span>
-								</td>
-								<td class="product-category"><span class="categories">Laptops</span></td>
-								<td class="action" data-title="Action">
-									<div class="">
-										<ul class="list-inline justify-content-center">
-											<li class="list-inline-item">
-												<a data-toggle="tooltip" data-placement="top" title="View" class="view" href="{{route('detailsBook')}}">
-													<i class="fa fa-eye"></i>
-												</a>
-											</li>
-											
 											<li class="list-inline-item">
 												<a data-toggle="tooltip" data-placement="top" title="Delete" class="delete" href="dashboard-my-ads.html">
 													<i class="fa fa-trash"></i>
@@ -121,12 +90,13 @@
 									</div>
 								</td>
 							</tr>
-	<!-- a product of cart  -->	
+							<!-- a product of cart  -->
 
-	<!-- a product of cart  -->	
-	<tr>
+							<!-- a product of cart  -->
+							<tr>
 								<td class="product-thumb">
-									<img width="80px" height="auto" src="{{asset('assets/client/images/products/products-1.jpg')}}" alt="image description"></td>
+									<img width="80px" height="auto" src="{{asset('assets/client/images/products/products-1.jpg')}}" alt="image description">
+								</td>
 								<td class="product-details">
 									<h3 class="title">Macbook Pro 15inch</h3>
 									<span class="add-id"><strong>Ad ID:</strong> ng3D5hAMHPajQrM</span>
@@ -143,7 +113,7 @@
 													<i class="fa fa-eye"></i>
 												</a>
 											</li>
-										
+
 											<li class="list-inline-item">
 												<a data-toggle="tooltip" data-placement="top" title="Delete" class="delete" href="dashboard-my-ads.html">
 													<i class="fa fa-trash"></i>
@@ -153,7 +123,40 @@
 									</div>
 								</td>
 							</tr>
-	<!-- a product of cart  -->	
+							<!-- a product of cart  -->
+
+							<!-- a product of cart  -->
+							<tr>
+								<td class="product-thumb">
+									<img width="80px" height="auto" src="{{asset('assets/client/images/products/products-1.jpg')}}" alt="image description">
+								</td>
+								<td class="product-details">
+									<h3 class="title">Macbook Pro 15inch</h3>
+									<span class="add-id"><strong>Ad ID:</strong> ng3D5hAMHPajQrM</span>
+									<span><strong>Posted on: </strong><time>Jun 27, 2017</time> </span>
+									<span class="status active"><strong>Status</strong>Active</span>
+									<span class="location"><strong>Location</strong>Dhaka,Bangladesh</span>
+								</td>
+								<td class="product-category"><span class="categories">Laptops</span></td>
+								<td class="action" data-title="Action">
+									<div class="">
+										<ul class="list-inline justify-content-center">
+											<li class="list-inline-item">
+												<a data-toggle="tooltip" data-placement="top" title="View" class="view" href="{{route('detailsBook')}}">
+													<i class="fa fa-eye"></i>
+												</a>
+											</li>
+
+											<li class="list-inline-item">
+												<a data-toggle="tooltip" data-placement="top" title="Delete" class="delete" href="dashboard-my-ads.html">
+													<i class="fa fa-trash"></i>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</td>
+							</tr>
+							<!-- a product of cart  -->
 
 
 

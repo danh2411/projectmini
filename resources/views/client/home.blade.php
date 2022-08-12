@@ -108,7 +108,7 @@
             Thể loại đề xuất
 
         </h2>
-        <a href="{{route('books')}}" class="d-flex align-items-center ml-auto nav-link" style="color: var(--home); font-size:15px;text-decoration:underline;">
+        <a href="{{route('books')}}" class="d-flex align-items-center ml-auto nav-link item--hover" style="font-size:15px;">
             see all
         </a>
         <div class="line" style="width: 100%; height: 1px; background-color: #F2F4F5;">
