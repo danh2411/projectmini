@@ -42,16 +42,16 @@
 					<div class="content mt-5 pt-5">
 						<ul class="nav nav-pills  justify-content-center" id="pills-tab" role="tablist">
 							<li class="nav-item">
-								<a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home"
-								 aria-selected="true">Product Details</a>
+								<a class="nav-link  active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home"
+								 aria-selected="true" style="  ">Product Details</a>
 							</li>
-							<li class="nav-item">
+							<!-- <li class="nav-item">
 								<a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile"
 								 aria-selected="false">Specifications</a>
-							</li>
+							</li> -->
 							<li class="nav-item">
-								<a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact"
-								 aria-selected="false">Reviews</a>
+								<a class="nav-link " id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact"
+								 aria-selected="false" style=" ">Reviews</a>
 							</li>
 						</ul>
 
@@ -201,18 +201,8 @@
 						<h4>Price</h4>
 						<p>$230</p>
 					</div>
-					<!-- User Profile widget -->
-					<div class="widget user text-center">
-						<img class="rounded-circle img-fluid mb-5 px-5" src="{{asset('assets/client/images/user/user-thumb.jpg')}}" alt="">
-						<h4><a href="user-profile.html">Jonathon Andrew</a></h4>
-						<p class="member-time">Member Since Jun 27, 2017</p>
-						<a href="single.html">See all ads</a>
-						<ul class="list-inline mt-20">
-							<li class="list-inline-item"><a href="contact-us.html" class="btn btn-contact d-inline-block  btn-primary px-lg-5 my-1 px-md-3">Contact</a></li>
-							<li class="list-inline-item"><a href="single.html" class="btn btn-offer d-inline-block btn-primary ml-n1 my-1 px-lg-4 px-md-3">Make an
-									offer</a></li>
-						</ul>
-					</div>
+				
+					
 					<!-- Map Widget
 					<div class="widget map">
 						<div class="map">
@@ -238,16 +228,6 @@
 							<li>Pay only after collecting the item</li>
 						</ul>
 					</div>
-					<!-- Coupon Widget -->
-					<div class="widget coupon text-center">
-						<!-- Coupon description -->
-						<p>Have a great product to post ? Share it with
-							your fellow users.
-						</p>
-						<!-- Submii button -->
-						<a href="single.html" class="btn btn-transparent-white">Submit Listing</a>
-					</div>
-
 				</div>
 			</div>
 

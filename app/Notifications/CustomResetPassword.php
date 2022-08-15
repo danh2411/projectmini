@@ -49,7 +49,7 @@ class CustomResetPassword extends Notification
     {
         return (new MailMessage)
             ->line('Bạn nhận được email này vì chúng tôi đã nhận được yêu cầu đặt lại mật khẩu cho tài khoản của bạn.')
-            ->action('Đặt lại mật khẩu', route('password.reset', $this->token))
+            ->action('Tạo lại mật khẩu', route('password.reset', $this->token))
             ->line('Nếu bạn không yêu cầu đặt lại mật khẩu, bạn có thể bỏ qua email này');
     }
 

@@ -29,24 +29,25 @@
                                     <div style="width:25%; float:left;" class="name_category_par">
                                         <div class="name_column_category_par" style=" width: 100%;font-weight: bold;font-size: 1.7em;color: #7A7E7F; text-align: left;padding: 0 12px;margin-bottom: 16px;"> Product Category </div>
                                         <div class="list-group list-group_menu_category ">
-                                            <ul class="nav " id="pills-tab" role="tablist">
-                                                <li class="list-group-item list-group-item-action">
-                                                    <a class=" active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">
+                                            <ul class="nav" id="pills-tab" role="tablist" >
+                                                <li class="list-group-item list-group-item-action" style=" border: none;">
+                                                    <a class=" active" id="pills-categoryItem1-tab" data-toggle="pill" href="#pills-categoryItem1" role="tab" aria-controls="pills-categoryItem1" aria-selected="true">
                                                         The current link item</a>
                                                 </li>
-                                                <li class="list-group-item list-group-item-action">
-                                                    <a class=" " id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">
+                                                <li class="list-group-item list-group-item-action" style=" border: none;">
+                                                    <a class=" " id="pills-categoryItem2-tab" data-toggle="pill" href="#pills-categoryItem2" role="tab" aria-controls="pills-categoryItem2" aria-selected="false">
                                                         A second link item</a>
                                                 </li>
-                                                <li class="list-group-item list-group-item-action">
-                                                    <a class="" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">
+                                                <li class="list-group-item list-group-item-action"style=" border: none;">
+                                                    <a class="" id="pills-categoryItem3-tab" data-toggle="pill" href="#pills-categoryItem3" role="tab" aria-controls="pills-categoryItem3" aria-selected="false">
                                                         A third link item</a>
                                                 </li>
-                                                <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
-                                                <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
-                                                <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
-                                                <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
-                                                <a href="#" class="list-group-item list-group-item-action ">A fourth link item</a>
+                                            </ul>
+                                            <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
+                                            <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
+                                            <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
+                                            <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
+                                            <a href="#" class="list-group-item list-group-item-action ">A fourth link item</a>
 
                                         </div>
                                     </div>
@@ -63,7 +64,7 @@
                                         <!-- <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"> -->
 
 
-                                        <div class="category_item_mini name_category_chil1 tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" style="padding-right: 2px; float: left; width:73%">
+                                        <div class="category_item_mini name_category_chil1 tab-pane fade show active" id="pills-categoryItem1" role="tabpanel" aria-labelledby="pills-categoryItem1-tab" style="padding-right: 2px; float: left; width:73%">
                                             <!-- // -->
                                             <div class="category_item_mini_title " style="width: 100%;font-weight: bold;font-size: 1.7em;color: #000000; text-align: left;padding: 0 12px;margin-bottom: 5px; padding-left: 24px;">Tuyện Tranh</div>
                                             <div class="row ">
@@ -86,7 +87,7 @@
 
 
                                         <!-- 2-->
-                                        <div class="category_item_mini name_category_chil1 tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" style="padding-right: 2px; float: left; width:73%">
+                                        <div class="category_item_mini name_category_chil1 tab-pane fade" id="pills-categoryItem2" role="tabpanel" aria-labelledby="pills-categoryItem2-tab" style="padding-right: 2px; float: left; width:73%">
                                             <!-- // -->
                                             <div class="category_item_mini_title " style="width: 100%;font-weight: bold;font-size: 1.7em;color: #000000; text-align: left;padding: 0 12px;margin-bottom: 5px; padding-left: 24px;">Tuyện Tranh</div>
                                             <div class="row ">
@@ -107,7 +108,7 @@
                                         <!-- end 2-->
 
                                         <!-- 3 -->
-                                        <div class="category_item_mini name_category_chil1 tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" style="padding-right: 2px; float: left; width:73%">
+                                        <div class="category_item_mini name_category_chil1 tab-pane fade" id="pills-categoryItem3" role="tabpanel" aria-labelledby="pills-categoryItem3-tab" style="padding-right: 2px; float: left; width:73%">
                                             <!-- // -->
                                             <div class="category_item_mini_title " style="width: 100%;font-weight: bold;font-size: 1.7em;color: #000000; text-align: left;padding: 0 12px;margin-bottom: 5px; padding-left: 24px;">Tuyện Tranh</div>
                                             <div class="row ">
@@ -210,7 +211,7 @@
                                                         <a class="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 transition duration-150 ease-in-out" href="{{route('historyCart')}}"> Lịch sử mua hàng</a>
                                                     </li>
                                                     <li class="items-menu-account items-menu">
-                                                        <a class="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 transition duration-150 ease-in-out" href="{{route('user')}} "> My account</a>
+                                                        <a class="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 transition duration-150 ease-in-out" href="{{route('user')}} "> Tài khoản của tôi</a>
                                                     </li>
                                                     <li class="items-menu-account items-menu">
                                                         <form method="POST" action="{{ route('logout') }}">

@@ -2597,6 +2597,10 @@ form textarea {
         
         width: 100% !important;
     }
+    #pills-item4-tab,
+    #pills-item5-tab {
+        display: none;
+    }
    
 }
 @media (max-width: 576px) {
@@ -2612,6 +2616,9 @@ form textarea {
     .col-sm-2{
       margin-right: 0% !important;
         width: 40% !important;
+    }
+    #pills-item3-tab {
+        display: none;
     }
     
 }
@@ -2634,14 +2641,21 @@ form textarea {
 
 .nav-pills .nav-link.active {
     color: var(--home);
-    background-color: var(--white);
+    background-color: var(--white) !important;
     border: 1px solid var(--home);
+  
 }
 .nav-link {
     font-size: 15px;
+     
 }
 .nav-link:hover {
-    color: var(--home);
+    color: var(--home) !important;
+  
+}
+.menu_detail_book{
+    background-color: var(--white) !important;
+    border: 1px solid var(--home);
 }
 
 /* hover items */
@@ -2649,6 +2663,9 @@ form textarea {
     cursor: pointer;
     opacity: 0.5;
 }
+
+
+/* item fix */
 
 .mess{
   position: fixed;
@@ -2678,3 +2695,18 @@ form textarea {
     z-index: 999556;
     cursor: pointer;
 }
+
+.location{
+    position: fixed;
+      right: 20px;
+      bottom: 180px;
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      /* background: #5672f9; */
+      color: rgb(0, 0, 0);
+      transition: 0.3s;
+      z-index: 999556;
+      cursor: pointer;
+  }

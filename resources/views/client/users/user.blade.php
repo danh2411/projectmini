@@ -21,10 +21,26 @@
 						<!-- User Name -->
 						<h5 class="text-center">Samanta Doe</h5>
 					</div>
+
 					<!-- Dashboard Links -->
-          <div class="widget user-dashboard-menu">
-           
-          </div>
+					<div class="widget user-dashboard-menu">
+						<ul>
+							<li>
+								<form method="POST" action="{{ route('logout') }}">
+									@csrf
+
+									<x-dropdown-link :href="route('logout')" onclick="event.preventDefault();
+                                                                this.closest('form').submit();">
+										<i class="fa fa-cog"></i> {{ __('Đăng xuất') }}
+									</x-dropdown-link>
+								</form>
+							</li>
+							<li>
+								<a href="#" class="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 transition duration-150 ease-in-out"><i class="fa fa-power-off"></i> Delete Account</a>
+							</li>
+						</ul>
+					</div>
+
 				</div>
 			</div>
 			<div class="col-lg-8 pd-right-none">
@@ -53,7 +69,7 @@
 								<div class="form-group choose-file d-inline-flex">
 									<i class="fa fa-user text-center px-3"></i>
 									<input type="file" class="form-control-file mt-2 pt-1" id="input-file">
-								 </div>
+								</div>
 								<!-- Comunity Name -->
 								<div class="form-group">
 									<label for="comunity-name">Comunity Name</label>
@@ -61,10 +77,10 @@
 								</div>
 								<!-- Checkbox -->
 								<div class="form-check">
-								  <label class="form-check-label" for="hide-profile">
-									<input class="form-check-input mt-1" type="checkbox" value="" id="hide-profile">
-									Hide Profile from Public/Comunity
-								  </label>
+									<label class="form-check-label" for="hide-profile">
+										<input class="form-check-input mt-1" type="checkbox" value="" id="hide-profile">
+										Hide Profile from Public/Comunity
+									</label>
 								</div>
 								<!-- Zip Code -->
 								<div class="form-group">
@@ -78,48 +94,48 @@
 					</div>
 					<div class="col-lg-6 col-md-6">
 						<!-- Change Password -->
-					<div class="widget change-password">
-						<h3 class="widget-header user">Edit Password</h3>
-						<form action="#">
-							<!-- Current Password -->
-							<div class="form-group">
-								<label for="current-password">Current Password</label>
-								<input type="password" class="form-control" id="current-password">
-							</div>
-							<!-- New Password -->
-							<div class="form-group">
-								<label for="new-password">New Password</label>
-								<input type="password" class="form-control" id="new-password">
-							</div>
-							<!-- Confirm New Password -->
-							<div class="form-group">
-								<label for="confirm-password">Confirm New Password</label>
-								<input type="password" class="form-control" id="confirm-password">
-							</div>
-							<!-- Submit Button -->
-							<button class="btn btn-transparent">Change Password</button>
-						</form>
-					</div>
+						<div class="widget change-password">
+							<h3 class="widget-header user">Edit Password</h3>
+							<form action="#">
+								<!-- Current Password -->
+								<div class="form-group">
+									<label for="current-password">Current Password</label>
+									<input type="password" class="form-control" id="current-password">
+								</div>
+								<!-- New Password -->
+								<div class="form-group">
+									<label for="new-password">New Password</label>
+									<input type="password" class="form-control" id="new-password">
+								</div>
+								<!-- Confirm New Password -->
+								<div class="form-group">
+									<label for="confirm-password">Confirm New Password</label>
+									<input type="password" class="form-control" id="confirm-password">
+								</div>
+								<!-- Submit Button -->
+								<button class="btn btn-transparent">Change Password</button>
+							</form>
+						</div>
 					</div>
 					<div class="col-lg-6 col-md-6">
 						<!-- Change Email Address -->
-					<div class="widget change-email mb-0">
-						<h3 class="widget-header user">Edit Email Address</h3>
-						<form action="#">
-							<!-- Current Password -->
-							<div class="form-group">
-								<label for="current-email">Current Email</label>
-								<input type="email" class="form-control" id="current-email">
-							</div>
-							<!-- New email -->
-							<div class="form-group">
-								<label for="new-email">New email</label>
-								<input type="email" class="form-control" id="new-email">
-							</div>
-							<!-- Submit Button -->
-							<button class="btn btn-transparent">Change email</button>
-						</form>
-					</div>
+						<div class="widget change-email mb-0">
+							<h3 class="widget-header user">Edit Email Address</h3>
+							<form action="#">
+								<!-- Current Password -->
+								<div class="form-group">
+									<label for="current-email">Current Email</label>
+									<input type="email" class="form-control" id="current-email">
+								</div>
+								<!-- New email -->
+								<div class="form-group">
+									<label for="new-email">New email</label>
+									<input type="email" class="form-control" id="new-email">
+								</div>
+								<!-- Submit Button -->
+								<button class="btn btn-transparent">Change email</button>
+							</form>
+						</div>
 					</div>
 				</div>
 			</div>
