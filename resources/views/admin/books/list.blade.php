@@ -35,7 +35,7 @@
                                         <td>Book</td>
                                         <td>$1500</td>
                                         <td>
-                                            <a href="{{route('detailCart')}}">
+                                            <a href="{{route('editBook')}}">
                                                 <button data-toggle="tooltip"  title="Edit" class="pd-setting-ed " href="{{route('editBook')}}" ><i class="fa fa-pencil-square-o" aria-hidden="true"></i></button>
                                             </a>
                                             <button onclick="return confirm('Bạn có muốn xóa thông tin sách này không ?')" data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button>

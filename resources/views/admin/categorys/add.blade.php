@@ -27,29 +27,15 @@
                                                         <div class="form-group">
                                                             <input name="subject" type="text" class="form-control" placeholder="Subject">
                                                         </div>
-                                                        <div class="form-group alert-up-pd">
-                                                            <div class="dz-message needsclick download-custom">
-
-                                                                
-                                                                    <i class="fa fa-download edudropnone" aria-hidden="true">
-                                                                        
-                                                                    </i>
-                                                                    <input type="file" class="form-control-file mt-2 pt-1" id="input-file" >
-                                                                    <h2 class="edudropnone">Drop image here or click to upload.</h2>
-                                                                
-
-
-
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                                         <div class="form-group">
                                                             <input name="department" type="number" class="form-control" placeholder="Department">
                                                         </div>
                                                         <div class="form-group res-mg-t-15">
                                                             <input name="type" type="text" class="form-control" placeholder="Type">
                                                         </div>
+                                                    </div>
+                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                                        
                                                         <div class="form-group">
                                                             <input name="price" type="text" class="form-control" placeholder="Price">
                                                         </div>

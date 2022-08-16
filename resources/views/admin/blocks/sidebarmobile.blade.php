@@ -7,60 +7,60 @@
                                     <ul class="mobile-menu-nav">
                                        <!-- Danh mục sách -->
 
-                                        <li><a data-toggle="collapse" data-target="#demolibra" href="#">Danh Mục Sách <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
-                                            <ul id="demolibra" class="collapse dropdown-header-top">
+                                        <li><a data-toggle="collapse" data-target="#demolibra" href="{{route('listCategory')}}">Danh Mục Sách <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                            <!-- <ul id="demolibra" class="collapse dropdown-header-top">
                                                 <li><a href="{{route('listCategory')}}">Bảng danh mục sách</a>
                                                 </li>
                                                 <li><a href="{{route('addCategory')}}" >Thêm danh mục</a>
                                                 </li>
                                                 <li><a href="{{route('editCategory')}}">Chỉnh sửa danh mục</a>
                                                 </li>
-                                            </ul>
+                                            </ul> -->
                                         </li>
                                        <!-- Thông Tin sách -->
-                                        <li><a data-toggle="collapse" data-target="#demolibra" href="#">Sách <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
-                                            <ul id="demolibra" class="collapse dropdown-header-top">
+                                        <li><a data-toggle="collapse" data-target="#demolibra" href="{{route('listBook')}}">Sách <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                            <!-- <ul id="demolibra" class="collapse dropdown-header-top">
                                                 <li><a href="{{route('listBook')}}">Tất cả sách</a>
                                                 </li>
                                                 <li><a href="{{route('addBook')}}">Thêm sách</a>
                                                 </li>
                                                 <li><a href="{{route('editBook')}}">Chỉnh sửa thông tin sách</a>
                                                 </li>
-                                            </ul>
+                                            </ul> -->
                                         </li>
                                         <!-- Thông Tin Khách Hàng -->
-                                        <li><a data-toggle="collapse" data-target="#demolibra" href="#">Khách Hàng <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
-                                            <ul id="demolibra" class="collapse dropdown-header-top">
+                                        <li><a data-toggle="collapse" data-target="#demolibra" href="#nav">Khách Hàng <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                            <!-- <ul id="demolibra" class="collapse dropdown-header-top">
                                                 <li><a href="library-assets.html">Danh sách khách hàng</a>
                                                 </li>
                                                
-                                            </ul>
+                                            </ul> -->
                                         </li>
                                         <!-- Mượn / Trả -->
-                                        <li><a data-toggle="collapse" data-target="#demolibra" href="#">Mượn / Trả <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
-                                            <ul id="demolibra" class="collapse dropdown-header-top">
+                                        <li><a data-toggle="collapse" data-target="#demolibra" href="{{route('listCart')}}">Mượn / Trả Sách <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                            <!-- <ul id="demolibra" class="collapse dropdown-header-top">
                                                 <li><a href="library-assets.html">Thông tin mượn/trả sách</a>
                                                 </li>
                                              
-                                            </ul>
+                                            </ul> -->
                                         </li>
                                         <!-- Comments / Rates -->
-                                        <li><a data-toggle="collapse" data-target="#demolibra" href="#">Comments / Rates <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
-                                            <ul id="demolibra" class="collapse dropdown-header-top">
+                                        <li><a data-toggle="collapse" data-target="#demolibra" href="{{route('listCommentsRates')}}">Comments / Rates <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                            <!-- <ul id="demolibra" class="collapse dropdown-header-top">
                                                 <li><a href="library-assets.html">Bình luận và đánh giá khách hàng </a>
                                                 </li>
                                                
-                                            </ul>
+                                            </ul> -->
                                         </li>
                                         <!-- page -->
-                                        <li><a data-toggle="collapse" data-target="#Pagemob" href="#">Pages <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
-                                            <ul id="Pagemob" class="collapse dropdown-header-top">
+                                        <li><a data-toggle="collapse" data-target="#Pagemob" href="{{route('admin')}}">Pages <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                            <!-- <ul id="Pagemob" class="collapse dropdown-header-top">
                                                 <li><a href="login.html">Login</a>
                                                 </li>
                                                 <li><a href="register.html">Register</a>
                                                 </li>
                                                
-                                            </ul>
+                                            </ul> -->
                                         </li>
                                     </ul>
                                 </nav>

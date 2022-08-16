@@ -137,6 +137,16 @@
 
 	 
 /* Tablet desktop :768px. */
+@media  (max-width: 991px) {
+a.nav-link.dropdown-toggle {
+    margin-left: 80px;
+}
+}
+@media  (max-width: 768px) {
+	a.nav-link.dropdown-toggle {
+		margin-left: 0px  !important;
+	}
+	}
 @media (min-width: 768px) and (max-width: 991px) {
 	.left-sidebar-pro{
 		display:none;

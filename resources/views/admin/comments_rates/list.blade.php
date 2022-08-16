@@ -6,10 +6,8 @@
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <div class="product-status-wrap">
-                            <h4>Library List</h4>
-                            <div class="add-product">
-                                <a href="#">Add Library</a>
-                            </div>
+                            <h4>Bình luận và đánh giá</h4>
+                            
                             <div class="asset-inner">
                                 <table>
                                     <tr>
