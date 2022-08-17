@@ -15,7 +15,8 @@ use Illuminate\Support\Facades\Route;
 
 // Route::get('/', function () { return view('welcome');});
 
-Route::get('/', function () { return view('client/home');})
+
+Route::get('/home', function () { return view('client/home');})
 ->middleware(['auth','verified'])->name('home');
 
 Route::get('/admin', function () { return view('admin/homeadmin');})
@@ -29,7 +30,7 @@ require __DIR__.'/auth.php';
 // admin
 
 //dashboard
-Route::get('/admin', function () { return view('admin/homeadmin');})->name('admin');
+// Route::get('/admin', function () { return view('admin/homeadmin');})->name('admin');
 
 // category books
 Route::get('/them-danh-muc', function () { return view('admin/categorys/add'); })->name('addCategory');
@@ -58,7 +59,7 @@ Route::get('/chinh-sua-thong-tin-khach-hang', function () { return view('admin/m
 //client
 
 //Home
-// Route::get('/', function () { return view('client.home');})->name('home');
+Route::get('/', function () { return view('client.home');})->name('home');
 
 // books
 Route::get('/xxx', function () { return view('client.books.books');})->name('books');
