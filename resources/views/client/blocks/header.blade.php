@@ -29,35 +29,34 @@
                                     <div style="width:25%; float:left;" class="name_category_par">
                                         <div class="name_column_category_par" style=" width: 100%;font-weight: bold;font-size: 1.7em;color: #7A7E7F; text-align: left;padding: 0 12px;margin-bottom: 16px;"> Product Category </div>
                                         <div class="list-group list-group_menu_category ">
-                                            <ul class="nav" id="pills-tab" role="tablist" >
+                                            <ul class="nav" id="pills-tab" role="tablist">
                                                 <li class="list-group-item list-group-item-action" style=" border: none;">
-                                                    <a class=" active" id="pills-categoryItem1-tab" data-toggle="pill" href="#pills-categoryItem1" role="tab" aria-controls="pills-categoryItem1" aria-selected="true">
+                                                    <a class=" active" id="pills-categoryItem1-tab" data-toggle="pill" href="#pills-categoryItem1" role="tab" aria-controls="pills-categoryItem1" aria-selected="true" style=" padding: 8px 114px 8px 0px;">
                                                         The current link item</a>
                                                 </li>
                                                 <li class="list-group-item list-group-item-action" style=" border: none;">
-                                                    <a class=" " id="pills-categoryItem2-tab" data-toggle="pill" href="#pills-categoryItem2" role="tab" aria-controls="pills-categoryItem2" aria-selected="false">
+                                                    <a class=" " id="pills-categoryItem2-tab" data-toggle="pill" href="#pills-categoryItem2" role="tab" aria-controls="pills-categoryItem2" aria-selected="false" style=" padding: 8px 114px 8px 0px;">
                                                         A second link item</a>
                                                 </li>
-                                                <li class="list-group-item list-group-item-action"style=" border: none;">
-                                                    <a class="" id="pills-categoryItem3-tab" data-toggle="pill" href="#pills-categoryItem3" role="tab" aria-controls="pills-categoryItem3" aria-selected="false">
+                                                <li class="list-group-item list-group-item-action" style=" border: none; ">
+                                                    <a class="" id="pills-categoryItem3-tab" data-toggle="pill" href="#pills-categoryItem3" role="tab" aria-controls="pills-categoryItem3" aria-selected="false" style=" padding: 8px 114px 8px 0px;">
                                                         A third link item</a>
                                                 </li>
-                                                <li class="list-group-item list-group-item-action"style=" border: none;">
-                                                    <a class="" id="pills-categoryItem3-tab" data-toggle="pill" href="#pills-categoryItem3" role="tab" aria-controls="pills-categoryItem3" aria-selected="false">
+                                                <li class="list-group-item list-group-item-action" style=" border: none;">
+                                                    <a class="" id="pills-categoryItem3-tab" data-toggle="pill" href="#pills-categoryItem3" role="tab" aria-controls="pills-categoryItem3" aria-selected="false" style=" padding: 8px 114px 8px 0px;">
                                                         A third link item</a>
                                                 </li>
-                                                <li class="list-group-item list-group-item-action"style=" border: none;">
-                                                    <a class="" id="pills-categoryItem3-tab" data-toggle="pill" href="#pills-categoryItem3" role="tab" aria-controls="pills-categoryItem3" aria-selected="false">
+                                                <li class="list-group-item list-group-item-action" style=" border: none;">
+                                                    <a class="" id="pills-categoryItem3-tab" data-toggle="pill" href="#pills-categoryItem3" role="tab" aria-controls="pills-categoryItem3" aria-selected="false" style=" padding: 8px 114px 8px 0px;">
                                                         A third link item</a>
                                                 </li>
-                                                <li class="list-group-item list-group-item-action"style=" border: none;">
-                                                    <a class="" id="pills-categoryItem3-tab" data-toggle="pill" href="#pills-categoryItem3" role="tab" aria-controls="pills-categoryItem3" aria-selected="false">
+                                                <li class="list-group-item list-group-item-action" style=" border: none;">
+                                                    <a class="" id="pills-categoryItem3-tab" data-toggle="pill" href="#pills-categoryItem3" role="tab" aria-controls="pills-categoryItem3" aria-selected="false" style=" padding: 8px 114px 8px 0px;">
                                                         A third link item</a>
                                                 </li>
                                             </ul>
-                                            <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
-                                            <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
-                                           
+                                            
+
 
                                         </div>
                                     </div>
