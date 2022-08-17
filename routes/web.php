@@ -13,10 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () { return view('welcome');});
+// Route::get('/', function () { return view('welcome');});
 
-Route::get('/dashboard', function () { return view('dashboard');})
-->middleware(['auth','verified'])->name('dashboard');
+Route::get('/', function () { return view('client/home');})
+->middleware(['auth','verified'])->name('home');
+
+Route::get('/admin', function () { return view('admin/homeadmin');})
+->middleware(['auth','verified'])->name('admin');
 
 require __DIR__.'/auth.php';
 
@@ -55,7 +58,7 @@ Route::get('/chinh-sua-thong-tin-khach-hang', function () { return view('admin/m
 //client
 
 //Home
-Route::get('/', function () { return view('client.home');})->name('home');
+// Route::get('/', function () { return view('client.home');})->name('home');
 
 // books
 Route::get('/xxx', function () { return view('client.books.books');})->name('books');
