@@ -48,6 +48,10 @@
                         <li>
                             <a class="" href="{{route('listMember')}}" aria-expanded="false"><span class=" icon-wrap"><i class="bi bi-person-lines-fill"></i></span> <span class="mini-click-non">Khách Hàng</span></a>                        
                         </li>
+                        <!-- thông tin nhan viên -->
+                        <li>
+                            <a class="" href="{{route('listLibrarian')}}" aria-expanded="false"><span class=" icon-wrap"><i class="bi bi-person-lines-fill"></i></span> <span class="mini-click-non">Nhân Viên</span></a>                        
+                        </li>
                         <!-- Mượn / Trả -->
 
                         <!-- <li>

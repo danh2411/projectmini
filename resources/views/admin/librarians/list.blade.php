@@ -1,6 +1,6 @@
 @extends('layouts.admin')
  <!-- css -->
- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
   <!-- css -->
 @section('content')
 <div class="product-status mg-b-15">
@@ -8,9 +8,9 @@
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <div class="product-status-wrap">
-                            <h4>Danh sách khách hàng</h4>
+                            <h4>Danh sách nhân viên</h4>
                             <div class="add-product">
-                                <a href="{{route('addMember')}}">Thêm khách hàng</a>
+                                <a href="{{route('addLibrarian')}}">Thêm nhân viên</a>
                             </div>
                             <div>
                         <div class="input-group" style="float:left;margin-bottom:20px;">

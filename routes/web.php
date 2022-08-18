@@ -54,6 +54,10 @@ Route::get('/them-khach-hang', function () { return view('admin/members/add'); }
 Route::get('/khach-hang', function () { return view('admin/members/list'); })->name('listMember');
 Route::get('/chinh-sua-thong-tin-khach-hang', function () { return view('admin/members/edit'); })->name('editMember');
 
+//librarians
+Route::get('/them-nhan-vien', function () { return view('admin/librarians/add'); })->name('addLibrarian');
+Route::get('/nhan-vien', function () { return view('admin/librarians/list'); })->name('listLibrarian');
+Route::get('/chinh-sua-thong-tin-nhan-vien', function () { return view('admin/librarians/edit'); })->name('editLibrarian');
 
 
 //client
