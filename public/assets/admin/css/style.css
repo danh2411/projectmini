@@ -4892,3 +4892,13 @@ i.dandev-plus {
 ul.dandev_attach_view li input {
     display: none;
 }
+/* khung search-choice */
+
+.btn:hover {
+    color: #fff !important;
+    background-color: #006df0 !important;
+    border-color: #006df0 !important;
+}
+.input-group{
+    margin-bottom: 16px !important;
+}

@@ -142,7 +142,7 @@ a.nav-link.dropdown-toggle {
     margin-left: 80px;
 }
 }
-@media  (max-width: 768px) {
+@media  (max-width: 767px) {
 	a.nav-link.dropdown-toggle {
 		margin-left: 0px  !important;
 	}
@@ -511,7 +511,8 @@ a.nav-link.dropdown-toggle {
 		margin-top:40px;
 	}
 	.add-product a {
-		display: none;
+		/* display: none; */
+		
 	}
 	.active-hook button{
 		margin:3px 0px;
@@ -762,5 +763,37 @@ a.nav-link.dropdown-toggle {
 	.profile-img {
 		text-align: center;
 	}
+}
+
+@media (max-width: 480px){
+		.add-product a {
+			
+			position: static;
+			float: left;
+			margin-bottom: 20px;
+		}
+}
+@media (max-width: 320px) {
+	
+	.page-item-number> a{
+		display: none;
+		
+	}
+	.custom-pagination ul.pagination li a{
+		margin-left: 30px;
+		border-radius: 4px !important;
+
+	}
+	
+}
+@media (max-width:334px){
+	ul.nav.nav-pills.Choice_item2_search{
+		padding-left: 0px !important;
+		margin-bottom: 20px;
+	}
+	ul.nav.nav-pills.Choice_item1_search{
+		margin-bottom: 10px !important;
+	}
+
 }
  
