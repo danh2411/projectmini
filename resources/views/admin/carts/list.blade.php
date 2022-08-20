@@ -12,8 +12,8 @@
                             <div>
                         <div class="input-group" style="float:left;margin-bottom:20px;">
                             <form class="d-flex" role="search">
-                                <input class="form-control me-2"style="width:100% ;border-radius: 8px;border-color: #000" type="search" placeholder="search" aria-label="Search" >
-                                <button class="btn btn-outline-success"style="border:1px solid #000 ; color:#000" type="submit">Search</button>
+                                <input class="form-control me-2 search_list" type="search" placeholder="search" aria-label="Search" >
+                                <button class="btn btn-outline-success btn_search_list"style="border:1px solid #000 ; color:#000" type="submit">Search</button>
                             </form>
                         </div>
                         <ul class="nav nav-pills Choice_item1_search " style="float:left; margin-bottom:20px">

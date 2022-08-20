@@ -4945,4 +4945,24 @@ ul.nav.nav-pills.Choice_item1_search{
     .pd-8px-16px{
         padding: 8px 16px !important;
     }
+.search_list{
+    width:220px !important;
+    border-radius: 8px !important;
+    border-color: #000 !important;
+}
+@media (max-width:365px){
+    .search_list{
+        width:180px !important;   
+    }
+    .btn_search_list{
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+}
+@media (max-width:300px){
+    .search_list{
+        width:140px !important;   
+    }
+}
+
 

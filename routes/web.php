@@ -33,31 +33,43 @@ require __DIR__.'/auth.php';
 // Route::get('/admin', function () { return view('admin/homeadmin');})->name('admin');
 
 // category books
-Route::get('/them-danh-muc', function () { return view('admin/categorys/add'); })->name('addCategory');
 Route::get('/danh-muc', function () { return view('admin/categorys/list'); })->name('listCategory');
-Route::get('/chinh-sua-danh-muc', function () { return view('admin/categorys/edit'); })->name('editCategory');
+Route::group(['prefix'=>'/danh-muc'],function(){
+    Route::get('/them-danh-muc', function () { return view('admin/categorys/add'); })->name('addCategory');
+    Route::get('/chinh-sua-danh-muc', function () { return view('admin/categorys/edit'); })->name('editCategory');
+});
+
 
 // Books
-Route::get('/them-sach', function () { return view('admin/books/add'); })->name('addBook');
 Route::get('/sach', function () { return view('admin/books/list'); })->name('listBook');
+Route::group(['prefix'=>'/sach'],function(){
+Route::get('/them-sach', function () { return view('admin/books/add'); })->name('addBook');
 Route::get('/chinh-sua-sach', function () { return view('admin/books/edit'); })->name('editBook');
+});
+
 
 // carts
 Route::get('/quan-li-muon-tra', function () { return view('admin/carts/list'); })->name('listCart');
+Route::group(['prefix'=>'/quan-li-muon-tra'],function(){
 Route::get('/chi-tiet-muon-tra', function () { return view('admin/carts/detail'); })->name('detailCart');
+});
 
 // comments & rates
 Route::get('/comments-rates', function () { return view('admin/comments_rates/list'); })->name('listCommentsRates');
 
 // members
+Route::get('/tat-ca-khach-hang', function () { return view('admin/members/list'); })->name('listMember');
+Route::group(['prefix'=>'/tat-ca-khach-hang'],function(){
 Route::get('/them-khach-hang', function () { return view('admin/members/add'); })->name('addMember');
-Route::get('/khach-hang', function () { return view('admin/members/list'); })->name('listMember');
 Route::get('/chinh-sua-thong-tin-khach-hang', function () { return view('admin/members/edit'); })->name('editMember');
+});
 
 //librarians
-Route::get('/them-nhan-vien', function () { return view('admin/librarians/add'); })->name('addLibrarian');
 Route::get('/nhan-vien', function () { return view('admin/librarians/list'); })->name('listLibrarian');
+Route::group(['prefix'=>'/nhan-vien'],function(){
+Route::get('/them-nhan-vien', function () { return view('admin/librarians/add'); })->name('addLibrarian');
 Route::get('/chinh-sua-thong-tin-nhan-vien', function () { return view('admin/librarians/edit'); })->name('editLibrarian');
+});
 
 
 //client

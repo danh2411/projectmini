@@ -13,7 +13,7 @@
 
     <!-- ** Basic Page Needs ** -->
     <meta charset="utf-8">
-    <title>DD Group</title>
+    <title>KIAALAP</title>
 
     <!-- ** Mobile Specific Metas ** -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -23,7 +23,7 @@
     <meta name="generator" content="Themefisher Classified Marketplace Template v1.0">
 
     <!-- favicon -->
-    <link href="{{asset('assets/client/images/favicon.png')}}" rel="shortcut icon">
+    <link href="{{asset('assets/admin/img/favicon.ico')}}"rel="shortcut icon">
 
     <!-- 
   Essential stylesheets

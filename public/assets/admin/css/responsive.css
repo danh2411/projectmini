@@ -139,8 +139,10 @@
 /* Tablet desktop :768px. */
 @media  (max-width: 991px) {
 a.nav-link.dropdown-toggle {
-    margin-left: 80px;
+    margin-left: 0px;
 }
+
+
 }
 @media  (max-width: 767px) {
 	a.nav-link.dropdown-toggle {

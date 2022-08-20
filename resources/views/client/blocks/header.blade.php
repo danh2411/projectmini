@@ -3,8 +3,8 @@
         <div class="row">
             <div class="col-md-12 ">
                 <nav class="navbar navbar-expand-lg navbar-light navigation ">
-                    <a class="navbar-brand  mr-5" href="{{route('home')}}">
-                        <img src="{{asset('assets/client/images/logo.png')}}" alt="">
+                    <a class="navbar-brand  " href="{{route('home')}}">
+                        <a href="{{route('home')}}"><img class="main-logo" src="{{asset('assets/admin/img/logo/logo.png')}}" alt="" /></a>
                     </a>
                     <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -55,7 +55,7 @@
                                                         A third link item</a>
                                                 </li>
                                             </ul>
-                                            
+
 
 
                                         </div>
