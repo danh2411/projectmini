@@ -4902,3 +4902,47 @@ ul.dandev_attach_view li input {
 .input-group{
     margin-bottom: 0px !important;
 }
+
+@media (max-width: 480px){
+    .add-product a {
+        
+        position: static;
+        float: left;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 320px) {
+
+.page-item-number> a{
+    display: none;
+    
+}
+.custom-pagination ul.pagination li a{
+    margin-left: 30px;
+    border-radius: 4px !important;
+
+}
+
+}
+@media (max-width:334px){
+ul.nav.nav-pills.Choice_item2_search{
+    padding-left: 0px !important;
+    margin-bottom: 20px;
+}
+ul.nav.nav-pills.Choice_item1_search{
+    margin-bottom: 10px !important;
+}
+
+}
+.btn_menu_categoty:hover{
+    
+        color: #fff !important;
+        background-color: #262626 !important;
+        border-color: #fff !important;
+        border-radius: 4px !important;
+    }
+
+    .pd-8px-16px{
+        padding: 8px 16px !important;
+    }
+

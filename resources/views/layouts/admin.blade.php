@@ -7,13 +7,14 @@
   <title>DD Group</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- icons bootstrap
+
+  <!-- icons bootstrap
   ============================================ -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <!-- jquery upload 
+  <!-- jquery upload 
   ============================================ -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
- 
+
   <!-- favicon
 		============================================ -->
   <link rel="shortcut icon" type="image/x-icon" href="{{asset('assets/admin/img/favicon.ico')}}">
@@ -56,61 +57,53 @@
 		============================================ -->
   <link rel="stylesheet" href="{{asset('assets/admin/css/metisMenu/metisMenu.min.css')}}">
   <link rel="stylesheet" href="{{asset('assets/admin/css/metisMenu/metisMenu-vertical.css')}}">
+
   <!-- calendar CSS
 		============================================ -->
   <link rel="stylesheet" href="{{asset('assets/admin/css/calendar/fullcalendar.min.css')}}">
   <link rel="stylesheet" href="{{asset('assets/admin/css/calendar/fullcalendar.print.min.css')}}">
+
   <!-- style CSS
 		============================================ -->
   <link rel="stylesheet" href="{{asset('assets/admin/css/style.css')}}">
   <!-- responsive CSS
 		============================================ -->
   <link rel="stylesheet" href="{{asset('assets/admin/css/responsive.css')}}">
-  <!-- modernizr JS
+    <!-- modernizr JS
 		============================================ -->
-  <script src="{{asset('assets/admin/js/vendor/modernizr-2.8.3.min.js')}}"></script>
+    <script src="{{asset('assets/admin/js/vendor/modernizr-2.8.3.min.js')}}"></script>
 
-  <!-- css -->
-  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous"> -->
-  <!-- css -->
+
 </head>
 
 <body>
-  <!--[if lt IE 8]>
-		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-	<![endif]-->
+
+  <!-- Nav Menu -->
+  @include('admin.blocks.header')
+  <!-- Nav Menu -->
 
 
-  <!-- Start sidebar -->
-  @include('admin.blocks.sidebar')
-  <!-- End sidebar -->
+  <div class="all-content-wrapper">
 
-  <!-- Main -->
- 
-   
-    <div class="all-content-wrapper">
-       <!-- Nav Menu -->
-    @include('admin.blocks.header')
-    <!-- Nav Menu -->
+    <!-- content-->
+    @yield('content')
+    <!-- endcontent -->
 
- 
-
-  <!-- content-->
-  @yield('content')
-  <!-- endcontent -->
-
-  <!-- footer -->
-  @include('admin.blocks.footer')
-  <!-- end footer -->
+    <!-- footer -->
+    @include('admin.blocks.footer')
+    <!-- end footer -->
 
   </div>
 
   <!-- end main -->
-  
-  <!-- js -->
-  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script> -->
-  <!-- jquery
+
+
+  <!-- js boostrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+  <!-- modernizr JS
 		============================================ -->
+  <script src="{{asset('assets/admin/js/vendor/modernizr-2.8.3.min.js')}}"></script>
 
   <script src="{{asset('assets/admin/js/vendor/jquery-1.12.4.min.js')}}"></script>
   <!-- bootstrap JS
