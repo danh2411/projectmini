@@ -29,17 +29,7 @@
                                                         </div>
                                                         <div class="form-group alert-up-pd">
                                                             <div class="dz-message needsclick download-custom">
-
-
-                                                                <!-- <input type="file" id="image-input" accept="image/jpeg, image/png, image/jpg">
-
-                                                                <div id="display-image"></div>
-                                                                <input type="file" id="image-input" accept="image/jpeg, image/png, image/jpg">
-
-                                                                <div id="display-image"></div>
-                                                                <input type="file" id="image-input" accept="image/jpeg, image/png, image/jpg">
-
-                                                                <div id="display-image"></div> -->
+                                                                <!-- upload picture -->
                                                                 <div class="dandev-reviews">
                                                                     <div class="form_upload">
                                                                         <label class="dandev_insert_attach"><span> Ấn để Upload ảnh </span></label>
@@ -51,11 +41,7 @@
                                                                         <span class="dandev_insert_attach"><i class="dandev-plus">+</i></span>
                                                                     </div>
                                                                 </div>
-
-
-
-
-
+                                                                 <!-- upload picture -->
                                                             </div>
                                                         </div>
                                                     </div>

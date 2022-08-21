@@ -8,7 +8,7 @@
             <nav class="sidebar-nav left-sidebar-menu-pro">
                 <ul class="metismenu" id="menu1">
                     <li>
-                        <a class="" href="{{route('listCategory')}}" aria-expanded="false"><span class=" icon-wrap"><i class="bi bi-columns-gap"></i></span> <span class="mini-click-non">Danh mục sách</span></a>
+                        <a class="" href="{{route('listCategory')}}" aria-expanded="false"><span class=" icon-wrap"><i class="bi bi-columns-gap"></i></span> <span class="mini-click-non">Thể loại sách</span></a>
                     </li>
                     <li>
                         <a class="" href="{{route('listBook')}}" aria-expanded="false"><span class=" icon-wrap"><i class="bi bi-journal-text"></i></i></span> <span class="mini-click-non">Sách</span></a>

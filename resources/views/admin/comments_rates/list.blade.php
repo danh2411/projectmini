@@ -1,7 +1,7 @@
 @extends('layouts.admin')
- <!-- css -->
- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-  <!-- css -->
+<!-- css -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+<!-- css -->
 @section('content')
 <div class="product-status mg-b-15">
     <div class="container-fluid">
@@ -9,36 +9,41 @@
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <div class="product-status-wrap">
                     <h4>Bình luận và đánh giá</h4>
-                    <div>
-                        <div class="input-group" style="float:left;margin-bottom:20px;">
-                            <form class="d-flex" role="search">
-                                <input class="form-control me-2 search_list" type="search" placeholder="search" aria-label="Search" >
-                                <button class="btn btn-outline-success btn_search_list"style="border:1px solid #000 ; color:#000" type="submit">Search</button>
-                            </form>
+                    <!-- search -choice -->
+                    <div class="d-flex justify-content-between align-items-center mb-3 header_content_form_search">
+
+                        <div class="d-flex align-items-center filter_search">
+                            <ul class="nav nav-pills Choice_item1_search filter_search_menu_choice">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Lọc theo tên</a>
+                                    <ul class="dropdown-menu ">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul class="nav nav-pills Choice_item2_search filter_search_menu_choice">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Lọc theo đánh giá</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+
+                                    </ul>
+                                </li>
+                            </ul>
                         </div>
-                        <ul class="nav nav-pills Choice_item1_search" style="float:left; margin-bottom:20px">
-                            <li class="nav-item dropdown" style=" border: 1px solid #000; border-radius:8px ;">
-                                <a class="nav-link dropdown-toggle" style="padding: 0px 4px; color:#000;" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Lọc theo tên</a>
-                                <ul class="dropdown-menu" style="">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
 
-                                </ul>
-                            </li>
-                        </ul>
-                        <ul class="nav nav-pills Choice_item2_search" style="padding-left:8px ; float:left;">
-                            <li class="nav-item dropdown" style=" border: 1px solid #000; border-radius:8px ; ">
-                                <a class="nav-link dropdown-toggle" style="padding: 0px 4px; color:#000;" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Lọc theo đánh giá</a>
-                                <ul class="dropdown-menu" style=" ">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <form class="d-flex align-items-center form_search_list" role="search" style="margin-bottom:0px ;float:left">
+                            <input class="form-control me-2 search_list" type="search" placeholder="search" aria-label="Search">
+                            <button class="btn btn-outline-success btn_search_list " style="border:1px solid #000 ; color:#000" type="submit">Search</button>
+                        </form>
 
-                                </ul>
-                            </li>
-                        </ul>
                     </div>
+                    <!-- search -choice -->
 
                     <div class="asset-inner">
                         <table>
