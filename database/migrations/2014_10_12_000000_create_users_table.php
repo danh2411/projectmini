@@ -14,8 +14,12 @@ return new class extends Migration
     public function up()
     {
         Schema::create('users', function (Blueprint $table) {
+<<<<<<< HEAD
             $table->id('id');
             // $table->unsignedBigInteger('user_id');
+=======
+            $table->id();
+>>>>>>> origin/Duy
             $table->string('name');
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
@@ -23,8 +27,11 @@ return new class extends Migration
             $table->tinyInteger('level');
             $table->rememberToken();
             $table->timestamps();
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> origin/Duy
         });
     }
 

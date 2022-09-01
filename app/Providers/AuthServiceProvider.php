@@ -4,6 +4,12 @@ namespace App\Providers;
 
 // use Illuminate\Support\Facades\Gate;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
+<<<<<<< HEAD
+=======
+use Illuminate\Auth\Notifications\VerifyEmail;
+use Illuminate\Auth\Notifications\ResetPassword;
+use Illuminate\Notifications\Messages\MailMessage;
+>>>>>>> origin/Duy
 
 class AuthServiceProvider extends ServiceProvider
 {
@@ -25,6 +31,29 @@ class AuthServiceProvider extends ServiceProvider
     {
         $this->registerPolicies();
 
+<<<<<<< HEAD
         //
+=======
+        VerifyEmail::toMailUsing(function ($notifiable, $url) {
+            return (new MailMessage)
+                ->subject('Xác Nhận Đăng Ký')
+                ->line('Ấn vào nút bên dưới để xác nhận đăng ký !')
+                ->action('Xác Nhận Đăng Ký', $url)
+                ->line('Nếu bạn chưa tạo tài khoản, bạn có thể bỏ qua Email này .');
+        });
+
+        // ResetPassword::createUrlUsing(function ($user, string $token) {
+        //     return 'https://example.com/reset-password?token='.$token;
+        // });
+        // ResetPassword::createUrlUsing(function ($user, string $token) {
+        //     return (new MailMessage)
+        //         ->subject('Tạo lại mật khẩu')
+        //         ->line('Bạn nhận được email này vì chúng tôi đã nhận được yêu cầu đặt lại mật khẩu cho tài khoản của bạn.')
+        //         ->action('Tạo lại mật khẩu', route('password.reset',$this->token))
+        //         ->line('Nếu bạn không yêu cầu đặt lại mật khẩu, bạn có thể bỏ qua email này');
+        // });
+
+       
+>>>>>>> origin/Duy
     }
 }

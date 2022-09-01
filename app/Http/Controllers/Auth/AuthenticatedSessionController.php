@@ -7,7 +7,11 @@ use App\Http\Requests\Auth\LoginRequest;
 use App\Providers\RouteServiceProvider;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+<<<<<<< HEAD
 use Illuminate\Support\Facades\Cookie;
+=======
+
+>>>>>>> origin/Duy
 class AuthenticatedSessionController extends Controller
 {
     /**
@@ -30,12 +34,17 @@ class AuthenticatedSessionController extends Controller
     {
         $request->authenticate();
 
+<<<<<<< HEAD
 
         $request->session()->regenerate();
         if($request->remember){
         Cookie::queue('reemail',$request->email,10);
         Cookie::queue('repass',$request->password,10);
         }
+=======
+        $request->session()->regenerate();
+
+>>>>>>> origin/Duy
         return redirect()->intended(RouteServiceProvider::HOME);
     }
 

@@ -8,10 +8,19 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
+<<<<<<< HEAD
 use App\Http\Models\Thethuvien;
 class User extends Authenticatable implements MustVerifyEmail
 {
     use  HasFactory, Notifiable;
+=======
+use App\Notifications\CustomResetPassword;
+// use App\Notifications\CustomVerifyEmailAddress;
+
+class User extends Authenticatable implements MustVerifyEmail
+{
+    use HasApiTokens, HasFactory, Notifiable;
+>>>>>>> origin/Duy
 
     /**
      * The attributes that are mass assignable.
@@ -19,7 +28,11 @@ class User extends Authenticatable implements MustVerifyEmail
      * @var array<int, string>
      */
 
+<<<<<<< HEAD
 
+=======
+     
+>>>>>>> origin/Duy
     protected $fillable = [
         'name',
         'email',
@@ -46,8 +59,22 @@ class User extends Authenticatable implements MustVerifyEmail
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+<<<<<<< HEAD
     public function Phieumuon()
     {
         return $this->hasOne(Thethuvien::class);
     }
+=======
+    // public function sendPasswordResetNotification($token)
+    //     {
+    //             $this->notify(new CustomResetPassword($token));
+    //     }
+       
+    // public function sendEmailVerificationNotification()
+    //     {
+    //         $this->notify(new CustomVerifyEmailAddress());
+    //     }
+        
+        
+>>>>>>> origin/Duy
 }
